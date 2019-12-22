@@ -1,0 +1,206 @@
+2019-12-20 10:51:44,128 INFO 18372 [egg-logrotator] agent logger reload: got log-reload message
+2019-12-21 08:03:26,874 INFO 23813 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-21 08:03:26,885 INFO 23813 [egg:core] dump config after load, 5ms
+2019-12-21 08:03:26,930 INFO 23813 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2019-12-21 08:03:26,930 INFO 23813 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2019-12-21 08:03:26,930 INFO 23813 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2019-12-21 08:03:26,930 INFO 23813 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2019-12-21 08:03:26,931 INFO 23813 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2019-12-21 08:03:26,931 INFO 23813 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2019-12-21 08:03:26,931 INFO 23813 [egg-watcher:agent] watcher start success
+2019-12-21 08:03:26,943 INFO 23813 [egg:core] dump config after ready, 4ms
+2019-12-21 23:00:03,795 ERROR 23813 nodejs.ClusterClientNoResponseError: client no response in 46993201ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23813
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 09:15:01,798 ERROR 23813 nodejs.ClusterClientNoResponseError: client no response in 36897825ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23813
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 11:27:37,431 ERROR 23813 nodejs.ClusterClientNoResponseError: client no response in 7955581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23813
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 11:51:12,416 ERROR 23813 nodejs.ClusterClientNoResponseError: client no response in 1374968ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23813
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 12:48:38,778 ERROR 23813 nodejs.ClusterClientNoResponseError: client no response in 2048675ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23813
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 13:24:29,492 ERROR 23813 nodejs.ClusterClientNoResponseError: client no response in 2110661ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23813
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 14:23:40,422 ERROR 23813 nodejs.ClusterClientNoResponseError: client no response in 3490908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 23813
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:03:46,226 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:03:46,017 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":707,"blocks":8,"atimeMs":1576886745360.6965,"mtimeMs":1576998225948.8257,"ctimeMs":1576998225948.8257,"birthtimeMs":1575877663130.2507,"atime":"2019-12-21T00:05:45.361Z","mtime":"2019-12-22T07:03:45.949Z","ctime":"2019-12-22T07:03:45.949Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:04:34,460 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:04:34,259 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":700,"blocks":8,"atimeMs":1576998238400.654,"mtimeMs":1576998274195.8616,"ctimeMs":1576998274195.8616,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:03:58.401Z","mtime":"2019-12-22T07:04:34.196Z","ctime":"2019-12-22T07:04:34.196Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:05:18,526 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:05:18,320 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":726,"blocks":8,"atimeMs":1576998301151.7961,"mtimeMs":1576998318258.4082,"ctimeMs":1576998318258.4082,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:05:01.152Z","mtime":"2019-12-22T07:05:18.258Z","ctime":"2019-12-22T07:05:18.258Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:08:36,206 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":708,"blocks":8,"atimeMs":1576998503446.5667,"mtimeMs":1576998516123.8564,"ctimeMs":1576998516123.8564,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:08:23.447Z","mtime":"2019-12-22T07:08:36.124Z","ctime":"2019-12-22T07:08:36.124Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:08:36,410 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:08:49,895 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:08:49,692 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":679,"blocks":8,"atimeMs":1576998517798.6836,"mtimeMs":1576998529683.6033,"ctimeMs":1576998529683.6033,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:08:37.799Z","mtime":"2019-12-22T07:08:49.684Z","ctime":"2019-12-22T07:08:49.684Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:10:15,353 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:10:15,151 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":730,"blocks":8,"atimeMs":1576998531166.7493,"mtimeMs":1576998615088.5137,"ctimeMs":1576998615088.5137,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:08:51.167Z","mtime":"2019-12-22T07:10:15.089Z","ctime":"2019-12-22T07:10:15.089Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:30:43,556 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":761,"blocks":8,"atimeMs":1576998639859.981,"mtimeMs":1576999843498.5884,"ctimeMs":1576999843498.5884,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:10:39.860Z","mtime":"2019-12-22T07:30:43.499Z","ctime":"2019-12-22T07:30:43.499Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:30:43,760 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:42:00,052 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/route/router.local.js change
+2019-12-22 15:41:59,849 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/route/router.local.js","stat":{"dev":16777222,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12902906123,"size":281,"blocks":8,"atimeMs":1577000476794.336,"mtimeMs":1577000519796.3757,"ctimeMs":1577000519796.3757,"birthtimeMs":1569108344000,"atime":"2019-12-22T07:41:16.794Z","mtime":"2019-12-22T07:41:59.796Z","ctime":"2019-12-22T07:41:59.796Z","birthtime":"2019-09-21T23:25:44.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:43:28,898 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:43:28,694 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":770,"blocks":8,"atimeMs":1577000599751.8638,"mtimeMs":1577000608641.8125,"ctimeMs":1577000608641.8125,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:43:19.752Z","mtime":"2019-12-22T07:43:28.642Z","ctime":"2019-12-22T07:43:28.642Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:43:39,127 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:43:38,922 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":780,"blocks":8,"atimeMs":1577000613818.1196,"mtimeMs":1577000618919.6785,"ctimeMs":1577000618919.6785,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:43:33.818Z","mtime":"2019-12-22T07:43:38.920Z","ctime":"2019-12-22T07:43:38.920Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:43:49,563 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:43:49,362 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":786,"blocks":8,"atimeMs":1577000625310.0413,"mtimeMs":1577000629352.4246,"ctimeMs":1577000629352.4246,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:43:45.310Z","mtime":"2019-12-22T07:43:49.352Z","ctime":"2019-12-22T07:43:49.352Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:43:58,376 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:43:58,169 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":796,"blocks":8,"atimeMs":1577000633290.517,"mtimeMs":1577000638168.1445,"ctimeMs":1577000638168.1445,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:43:53.291Z","mtime":"2019-12-22T07:43:58.168Z","ctime":"2019-12-22T07:43:58.168Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:44:21,738 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":810,"blocks":8,"atimeMs":1577000639734.6343,"mtimeMs":1577000661660.7148,"ctimeMs":1577000661660.7148,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:43:59.735Z","mtime":"2019-12-22T07:44:21.661Z","ctime":"2019-12-22T07:44:21.661Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:44:21,941 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:45:51,817 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:45:51,614 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":818,"blocks":8,"atimeMs":1577000695546.796,"mtimeMs":1577000751545.8572,"ctimeMs":1577000751545.8572,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:44:55.547Z","mtime":"2019-12-22T07:45:51.546Z","ctime":"2019-12-22T07:45:51.546Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:47:00,140 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":999,"blocks":8,"atimeMs":1577000753336.572,"mtimeMs":1577000820058.6829,"ctimeMs":1577000820058.6829,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:45:53.337Z","mtime":"2019-12-22T07:47:00.059Z","ctime":"2019-12-22T07:47:00.059Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:47:00,343 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:48:49,722 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 15:48:49,518 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/route/router.local.js","stat":{"dev":16777222,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12902906123,"size":281,"blocks":8,"atimeMs":1577000865046.3184,"mtimeMs":1577000929418.2903,"ctimeMs":1577000929418.2903,"birthtimeMs":1569108344000,"atime":"2019-12-22T07:47:45.046Z","mtime":"2019-12-22T07:48:49.418Z","ctime":"2019-12-22T07:48:49.418Z","birthtime":"2019-09-21T23:25:44.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 15:48:49,518 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":999,"blocks":8,"atimeMs":1577000821626.7827,"mtimeMs":1577000929421.0325,"ctimeMs":1577000929421.0325,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:47:01.627Z","mtime":"2019-12-22T07:48:49.421Z","ctime":"2019-12-22T07:48:49.421Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:02:13,931 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:02:13,723 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1024,"blocks":8,"atimeMs":1577000930949.0662,"mtimeMs":1577001733662.676,"ctimeMs":1577001733662.676,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T07:48:50.949Z","mtime":"2019-12-22T08:02:13.663Z","ctime":"2019-12-22T08:02:13.663Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:08:54,498 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:08:54,295 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1036,"blocks":8,"atimeMs":1577001735281.771,"mtimeMs":1577002134234.059,"ctimeMs":1577002134234.059,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:02:15.282Z","mtime":"2019-12-22T08:08:54.234Z","ctime":"2019-12-22T08:08:54.234Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:15:30,942 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:15:30,741 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1060,"blocks":8,"atimeMs":1577002146608.1736,"mtimeMs":1577002530682.8977,"ctimeMs":1577002530682.8977,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:09:06.608Z","mtime":"2019-12-22T08:15:30.683Z","ctime":"2019-12-22T08:15:30.683Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:16:57,842 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:16:57,633 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1163,"blocks":8,"atimeMs":1577002547050.7437,"mtimeMs":1577002617582.2932,"ctimeMs":1577002617582.2932,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:15:47.051Z","mtime":"2019-12-22T08:16:57.582Z","ctime":"2019-12-22T08:16:57.582Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:19:49,305 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1171,"blocks":8,"atimeMs":1577002781057.6619,"mtimeMs":1577002789218.8252,"ctimeMs":1577002789218.8252,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:19:41.058Z","mtime":"2019-12-22T08:19:49.219Z","ctime":"2019-12-22T08:19:49.219Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:19:49,511 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:19:53,447 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:19:53,244 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1173,"blocks":8,"atimeMs":1577002790708.592,"mtimeMs":1577002793241.6445,"ctimeMs":1577002793241.6445,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:19:50.709Z","mtime":"2019-12-22T08:19:53.242Z","ctime":"2019-12-22T08:19:53.242Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:20:14,793 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:20:14,592 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1179,"blocks":8,"atimeMs":1577002811121.9849,"mtimeMs":1577002814487.551,"ctimeMs":1577002814487.551,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:20:11.122Z","mtime":"2019-12-22T08:20:14.488Z","ctime":"2019-12-22T08:20:14.488Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:20:18,075 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:20:17,870 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1182,"blocks":8,"atimeMs":1577002816216.7756,"mtimeMs":1577002817860.349,"ctimeMs":1577002817860.349,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:20:16.217Z","mtime":"2019-12-22T08:20:17.860Z","ctime":"2019-12-22T08:20:17.860Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:20:24,058 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:20:23,851 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1186,"blocks":8,"atimeMs":1577002820547.8574,"mtimeMs":1577002823848.934,"ctimeMs":1577002823848.934,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:20:20.548Z","mtime":"2019-12-22T08:20:23.849Z","ctime":"2019-12-22T08:20:23.849Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:20:29,221 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:20:29,016 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1189,"blocks":8,"atimeMs":1577002829005.2327,"mtimeMs":1577002829006.9807,"ctimeMs":1577002829006.9807,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:20:29.005Z","mtime":"2019-12-22T08:20:29.007Z","ctime":"2019-12-22T08:20:29.007Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:22:52,437 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:22:52,234 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1400,"blocks":8,"atimeMs":1577002855501.5078,"mtimeMs":1577002972182.5103,"ctimeMs":1577002972182.5103,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:20:55.502Z","mtime":"2019-12-22T08:22:52.183Z","ctime":"2019-12-22T08:22:52.183Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:35:11,397 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1453,"blocks":8,"atimeMs":1577003359894.404,"mtimeMs":1577003711301.77,"ctimeMs":1577003711301.77,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:29:19.894Z","mtime":"2019-12-22T08:35:11.302Z","ctime":"2019-12-22T08:35:11.302Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:35:11,598 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 16:42:24,715 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1923,"blocks":8,"atimeMs":1577003729665.9392,"mtimeMs":1577004144611.9812,"ctimeMs":1577004144611.9812,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T08:35:29.666Z","mtime":"2019-12-22T08:42:24.612Z","ctime":"2019-12-22T08:42:24.612Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 16:42:24,920 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 17:14:16,280 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/model/js.js change
+2019-12-22 17:14:16,075 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945291,"size":255,"blocks":8,"atimeMs":1577005545478.3918,"mtimeMs":1577006056013.1995,"ctimeMs":1577006056013.1995,"birthtimeMs":1575877874257.1362,"atime":"2019-12-22T09:05:45.478Z","mtime":"2019-12-22T09:14:16.013Z","ctime":"2019-12-22T09:14:16.013Z","birthtime":"2019-12-09T07:51:14.257Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 17:34:24,886 WARN 23813 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/route/router.local.js change
+2019-12-22 17:34:24,680 INFO 23813 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/route/router.local.js","stat":{"dev":16777222,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12902906123,"size":384,"blocks":8,"atimeMs":1577007208159.7239,"mtimeMs":1577007264590.1091,"ctimeMs":1577007264590.1091,"birthtimeMs":1569108344000,"atime":"2019-12-22T09:33:28.160Z","mtime":"2019-12-22T09:34:24.590Z","ctime":"2019-12-22T09:34:24.590Z","birthtime":"2019-09-21T23:25:44.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 17:37:22,088 INFO 26649 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-22 17:37:22,098 INFO 26649 [egg:core] dump config after load, 3ms
+2019-12-22 17:37:22,145 INFO 26649 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2019-12-22 17:37:22,145 INFO 26649 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2019-12-22 17:37:22,145 INFO 26649 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2019-12-22 17:37:22,146 INFO 26649 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2019-12-22 17:37:22,146 INFO 26649 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2019-12-22 17:37:22,146 INFO 26649 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2019-12-22 17:37:22,146 INFO 26649 [egg-watcher:agent] watcher start success
+2019-12-22 17:37:22,170 INFO 26649 [egg:core] dump config after ready, 3ms
+2019-12-22 17:40:19,019 INFO 26693 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-22 17:40:19,029 INFO 26693 [egg:core] dump config after load, 4ms
+2019-12-22 17:40:19,062 INFO 26693 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2019-12-22 17:40:19,062 INFO 26693 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2019-12-22 17:40:19,063 INFO 26693 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2019-12-22 17:40:19,063 INFO 26693 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2019-12-22 17:40:19,063 INFO 26693 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2019-12-22 17:40:19,063 INFO 26693 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2019-12-22 17:40:19,063 INFO 26693 [egg-watcher:agent] watcher start success
+2019-12-22 17:40:19,073 INFO 26693 [egg:core] dump config after ready, 3ms
+2019-12-22 17:41:00,874 INFO 26711 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-22 17:41:00,884 INFO 26711 [egg:core] dump config after load, 4ms
+2019-12-22 17:41:00,918 INFO 26711 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2019-12-22 17:41:00,918 INFO 26711 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2019-12-22 17:41:00,919 INFO 26711 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2019-12-22 17:41:00,919 INFO 26711 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2019-12-22 17:41:00,919 INFO 26711 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2019-12-22 17:41:00,919 INFO 26711 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2019-12-22 17:41:00,919 INFO 26711 [egg-watcher:agent] watcher start success
+2019-12-22 17:41:00,929 INFO 26711 [egg:core] dump config after ready, 3ms
+2019-12-22 17:41:44,980 INFO 26711 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12904945028,"size":1929,"blocks":8,"atimeMs":1577007693275.4368,"mtimeMs":1577007704916.7935,"ctimeMs":1577007704916.7935,"birthtimeMs":1575877663130.2507,"atime":"2019-12-22T09:41:33.275Z","mtime":"2019-12-22T09:41:44.917Z","ctime":"2019-12-22T09:41:44.917Z","birthtime":"2019-12-09T07:47:43.130Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-22 17:41:45,184 WARN 26711 [agent:development] reload worker because /Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js change
+2019-12-22 19:27:33,731 ERROR 26711 nodejs.ClusterClientNoResponseError: client no response in 4386803ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 26711
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 20:11:05,104 ERROR 26711 nodejs.ClusterClientNoResponseError: client no response in 2571332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 26711
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 21:21:56,267 INFO 27272 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-22 21:21:56,277 INFO 27272 [egg:core] dump config after load, 4ms
+2019-12-22 21:21:56,321 INFO 27272 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2019-12-22 21:21:56,321 INFO 27272 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2019-12-22 21:21:56,322 INFO 27272 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2019-12-22 21:21:56,322 INFO 27272 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2019-12-22 21:21:56,322 INFO 27272 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2019-12-22 21:21:56,322 INFO 27272 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2019-12-22 21:21:56,322 INFO 27272 [egg-watcher:agent] watcher start success
+2019-12-22 21:21:56,333 INFO 27272 [egg:core] dump config after ready, 3ms

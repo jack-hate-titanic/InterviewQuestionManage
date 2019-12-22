@@ -1,0 +1,210 @@
+2019-12-22 15:03:55,051 ERROR 25807 [-/127.0.0.1/-/13ms POST /api/js] nodejs.TypeError: Cannot read property 'params' of undefined
+    at JsController.create (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:14:44)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 25807
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:04:46,035 ERROR 25811 [-/127.0.0.1/-/12ms POST /api/js] nodejs.TypeError: Cannot destructure property `title` of 'undefined' or 'null'.
+    at JsController.create (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:14:39)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 25811
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:05:27,545 ERROR 25828 [-/127.0.0.1/-/17ms POST /api/js] nodejs.TypeError: Cannot destructure property `title` of 'undefined' or 'null'.
+    at JsController.create (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:15:39)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 25828
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:09:07,990 ERROR 25844 [-/127.0.0.1/-/11ms POST /api/js] nodejs.TypeError: Cannot destructure property `title` of 'undefined' or 'null'.
+    at JsController.create (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:14:52)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 25844
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:57:37,339 ERROR 26128 [-/127.0.0.1/-/1ms DELETE /api/js/undefined] nodejs.ReferenceError: ctx is not defined
+    at JsController.destroy (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:29:22)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 26128
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:58:32,111 ERROR 26128 [-/127.0.0.1/-/1ms DELETE /api/js/undefined] nodejs.ReferenceError: ctx is not defined
+    at JsController.destroy (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:29:22)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 26128
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:58:45,780 ERROR 26128 [-/127.0.0.1/-/1ms DELETE /api/js/undefined] nodejs.ReferenceError: ctx is not defined
+    at JsController.destroy (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:29:22)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 26128
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 15:59:34,860 ERROR 26128 [-/127.0.0.1/-/0ms DELETE /api/js/undefined] nodejs.ReferenceError: ctx is not defined
+    at JsController.destroy (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:29:22)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 26128
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 16:01:28,185 ERROR 26128 [-/127.0.0.1/-/1ms DELETE /api/js/5dff1475c98e865d06069fb6] nodejs.ReferenceError: ctx is not defined
+    at JsController.destroy (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:29:22)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 26128
+hostname: kubandeMacBook-Pro.local
+
+2019-12-22 17:41:17,088 ERROR 26712 [-/127.0.0.1/-/16ms PUT /api/js] nodejs.ReferenceError: id is not defined
+    at JsController.update (/Users/kuban/Desktop/InterviewQuestionManage/app/controller/js.js:35:56)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 26712
+hostname: kubandeMacBook-Pro.local
+
