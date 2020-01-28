@@ -1,0 +1,231 @@
+2019-12-29 11:42:15,373 INFO 47200 [egg-logrotator] agent logger reload: got log-reload message
+2019-12-29 13:09:27,319 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 288510ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2019-12-29 15:13:07,454 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 6860920ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2019-12-29 20:05:04,285 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 3674685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2019-12-29 21:00:23,010 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 3298722ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2019-12-30 08:15:01,982 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 33218083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2019-12-30 10:37:59,758 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 8577725ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2019-12-30 10:39:10,293 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 70526ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2019-12-30 11:02:53,940 ERROR 47200 nodejs.ClusterClientNoResponseError: client no response in 1386064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 47200
+hostname: kubandeMacBook-Pro.local
+
+2020-01-12 10:55:01,930 INFO 27188 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-12 10:55:01,944 INFO 27188 [egg:core] dump config after load, 5ms
+2020-01-12 10:55:01,999 INFO 27188 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2020-01-12 10:55:01,999 INFO 27188 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2020-01-12 10:55:01,999 INFO 27188 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2020-01-12 10:55:02,000 INFO 27188 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2020-01-12 10:55:02,000 INFO 27188 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-01-12 10:55:02,000 INFO 27188 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2020-01-12 10:55:02,000 INFO 27188 [egg-watcher:agent] watcher start success
+2020-01-12 10:55:02,014 INFO 27188 [egg:core] dump config after ready, 4ms
+2020-01-12 10:57:14,438 INFO 27335 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-12 10:57:14,448 INFO 27335 [egg:core] dump config after load, 4ms
+2020-01-12 10:57:14,485 INFO 27335 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2020-01-12 10:57:14,485 INFO 27335 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2020-01-12 10:57:14,485 INFO 27335 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2020-01-12 10:57:14,485 INFO 27335 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2020-01-12 10:57:14,485 INFO 27335 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-01-12 10:57:14,485 INFO 27335 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2020-01-12 10:57:14,486 INFO 27335 [egg-watcher:agent] watcher start success
+2020-01-12 10:57:14,496 INFO 27335 [egg:core] dump config after ready, 3ms
+2020-01-12 13:36:33,425 ERROR 27335 nodejs.ClusterClientNoResponseError: client no response in 3096001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27335
+hostname: kubandeMacBook-Pro.local
+
+2020-01-12 21:10:29,005 ERROR 27335 nodejs.ClusterClientNoResponseError: client no response in 10194914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27335
+hostname: kubandeMacBook-Pro.local
+
+2020-01-13 02:29:49,773 ERROR 27335 nodejs.ClusterClientNoResponseError: client no response in 7218471ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27335
+hostname: kubandeMacBook-Pro.local
+
+2020-01-13 09:25:04,899 ERROR 27335 nodejs.ClusterClientNoResponseError: client no response in 24915095ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27335
+hostname: kubandeMacBook-Pro.local
+
+2020-01-13 10:21:38,496 ERROR 27335 nodejs.ClusterClientNoResponseError: client no response in 3273564ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27335
+hostname: kubandeMacBook-Pro.local
+
+2020-01-13 10:23:37,427 ERROR 27335 nodejs.ClusterClientNoResponseError: client no response in 80119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27335
+hostname: kubandeMacBook-Pro.local
+
+2020-01-13 10:25:55,886 ERROR 27335 nodejs.ClusterClientNoResponseError: client no response in 138457ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 27335
+hostname: kubandeMacBook-Pro.local
+
+2020-01-13 12:54:51,258 INFO 30186 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-13 12:54:51,270 INFO 30186 [egg:core] dump config after load, 3ms
+2020-01-13 12:54:51,316 INFO 30186 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2020-01-13 12:54:51,316 INFO 30186 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2020-01-13 12:54:51,317 INFO 30186 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2020-01-13 12:54:51,317 INFO 30186 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2020-01-13 12:54:51,317 INFO 30186 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-01-13 12:54:51,317 INFO 30186 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2020-01-13 12:54:51,317 INFO 30186 [egg-watcher:agent] watcher start success
+2020-01-13 12:54:51,329 INFO 30186 [egg:core] dump config after ready, 5ms
+2020-01-14 07:15:08,352 ERROR 30186 nodejs.ClusterClientNoResponseError: client no response in 41271240ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 30186
+hostname: kubandeMacBook-Pro.local
+
+2020-01-14 07:48:24,857 ERROR 30186 nodejs.ClusterClientNoResponseError: client no response in 1996453ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 30186
+hostname: kubandeMacBook-Pro.local
+
+2020-01-14 08:02:52,577 ERROR 30186 nodejs.ClusterClientNoResponseError: client no response in 867706ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 30186
+hostname: kubandeMacBook-Pro.local
+
+2020-01-14 10:22:50,282 ERROR 30186 nodejs.ClusterClientNoResponseError: client no response in 6399669ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 30186
+hostname: kubandeMacBook-Pro.local
+
+2020-01-14 10:24:52,039 ERROR 30186 nodejs.ClusterClientNoResponseError: client no response in 82036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 30186
+hostname: kubandeMacBook-Pro.local
+

@@ -1,0 +1,6 @@
+2020-01-27 23:59:59,873 INFO 12950 [Job#15801407998701434297498896423] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-01-27 23:59:59,876 INFO 12950 [Job#15801407998701434297498896423] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 3ms
+2020-01-27 23:59:59,871 INFO 12949 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400130ms at 2020-01-29 00:00:00.001
+2020-01-28 00:00:00,875 INFO 12950 [Job#15801408008741434307535703493] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-01-28 00:00:00,878 INFO 12950 [Job#15801408008741434307535703493] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 3ms
+2020-01-28 00:00:00,875 INFO 12949 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400126ms at 2020-01-29 00:00:01.001

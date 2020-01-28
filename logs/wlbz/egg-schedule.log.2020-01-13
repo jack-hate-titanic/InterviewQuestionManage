@@ -1,0 +1,24 @@
+2019-12-29 18:10:42,003 INFO 47200 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37158002ms at 2019-12-30 04:30:00.005
+2019-12-29 18:10:42,000 INFO 47201 [Job#15776142419985006695233496191] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2019-12-29 18:10:42,014 INFO 47201 [Job#15776142419985006695233496191] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 14ms
+2020-01-12 10:55:03,005 INFO 27191 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-12 10:55:03,005 INFO 27191 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-12 10:55:03,005 INFO 27191 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-12 10:57:15,371 INFO 27336 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-12 10:57:15,371 INFO 27336 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-12 10:57:15,371 INFO 27336 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-12 10:57:15,714 INFO 27335 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63164290ms at 2020-01-13 04:30:00.004
+2020-01-12 10:57:15,714 INFO 27335 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46964286ms at 2020-01-13 00:00:00.000
+2020-01-12 10:57:15,714 INFO 27335 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46965286ms at 2020-01-13 00:00:01.000
+2020-01-13 12:54:52,883 INFO 30186 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56107121ms at 2020-01-14 04:30:00.004
+2020-01-13 12:54:52,883 INFO 30186 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 39907117ms at 2020-01-14 00:00:00.000
+2020-01-13 12:54:52,884 INFO 30186 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39908117ms at 2020-01-14 00:00:01.001
+2020-01-13 12:54:52,348 INFO 30187 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-13 12:54:52,348 INFO 30187 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-13 12:54:52,348 INFO 30187 [egg-schedule]: register schedule /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-14 14:01:19,820 INFO 30187 [Job#15789816797963878093152029551] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-01-14 14:01:19,835 INFO 30187 [Job#15789816797963878093152029551] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 14ms
+2020-01-14 14:01:19,805 INFO 30186 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35920201ms at 2020-01-15 00:00:00.006
+2020-01-14 14:01:20,796 INFO 30187 [Job#15789816807943878103123046321] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-01-14 14:01:20,801 INFO 30187 [Job#15789816807943878103123046321] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 4ms
+2020-01-14 14:01:20,797 INFO 30186 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35920206ms at 2020-01-15 00:00:01.003
