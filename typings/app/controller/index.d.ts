@@ -4,14 +4,14 @@
 import 'egg';
 import ExportJs = require('../../../app/controller/js');
 import ExportLogin = require('../../../app/controller/login');
-import ExportPriority = require('../../../app/controller/priority');
+import ExportMarx = require('../../../app/controller/marx');
 import ExportUser = require('../../../app/controller/user');
 
 declare module 'egg' {
   interface IController {
     js: ExportJs;
     login: ExportLogin;
-    priority: ExportPriority;
+    marx: ExportMarx;
     user: ExportUser;
   }
 }

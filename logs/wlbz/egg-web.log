@@ -1,24 +1,4 @@
-2020-01-28 00:00:00,879 INFO 12950 [egg-logrotator] app logger reload: got log-reload message
-2020-01-28 09:15:03,876 WARN 12950 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2020-01-28 09:15:03,883 WARN 12950 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-01-28 10:00:08,183 WARN 12950 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-01-28 10:13:17,473 WARN 12950 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-01-28 10:58:49,021 WARN 12950 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2020-01-28 10:58:49,022 WARN 12950 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-01-28 11:12:00,000 INFO 17520 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-01-28 11:12:00,031 INFO 17520 [egg-multipart] stream mode enable
-2020-01-28 11:12:00,329 INFO 17520 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
-2020-01-28 11:12:00,400 INFO 17520 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
-2020-01-28 11:12:00,403 INFO 17520 [egg-security] use methodnoallow middleware
-2020-01-28 11:12:00,404 INFO 17520 [egg-security] use noopen middleware
-2020-01-28 11:12:00,405 INFO 17520 [egg-security] use nosniff middleware
-2020-01-28 11:12:00,405 INFO 17520 [egg-security] use xssProtection middleware
-2020-01-28 11:12:00,405 INFO 17520 [egg-security] use xframe middleware
-2020-01-28 11:12:00,406 INFO 17520 [egg-security] use dta middleware
-2020-01-28 11:12:00,406 INFO 17520 [egg-security] compose 6 middlewares into one security middleware
-2020-01-28 11:12:00,449 INFO 17520 [egg:core] dump config after load, 31ms
-2020-01-28 11:12:00,455 INFO 17520 [egg-mongoose] starting...
-2020-01-28 11:12:00,520 INFO 17520 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
-2020-01-28 11:12:00,521 INFO 17520 [egg-mongoose] instance[0] start successfully
-2020-01-28 11:12:00,524 INFO 17520 [egg-watcher:application] watcher start success
-2020-01-28 11:12:00,533 INFO 17520 [egg:core] dump config after ready, 5ms
+2020-08-03 10:25:09,499 INFO 24386 [egg-logrotator] app logger reload: got log-reload message
+2020-08-03 13:40:02,484 INFO 24386 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz"
+2020-08-03 13:40:02,487 INFO 24386 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-08-03 20:31:04,641 WARN 24386 [ClusterClient:Watcher] follower closed, and try to init it again

@@ -1,40 +1,10 @@
-2020-01-28 09:15:03,873 ERROR 12949 nodejs.ClusterClientNoResponseError: client no response in 31114502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-08-03 20:31:04,637 ERROR 12818 nodejs.ClusterClientNoResponseError: client no response in 4217411ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 12949
-hostname: kubandeMacBook-Pro.local
-
-2020-01-28 10:00:08,183 ERROR 12949 nodejs.ClusterClientNoResponseError: client no response in 2704095ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 12949
-hostname: kubandeMacBook-Pro.local
-
-2020-01-28 10:13:17,473 ERROR 12949 nodejs.ClusterClientNoResponseError: client no response in 689275ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 12949
-hostname: kubandeMacBook-Pro.local
-
-2020-01-28 10:58:49,021 ERROR 12949 nodejs.ClusterClientNoResponseError: client no response in 1711057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 12949
-hostname: kubandeMacBook-Pro.local
+pid: 12818
+hostname: senge.local
 

@@ -1,0 +1,21 @@
+2020-07-08 11:58:16,139 INFO 1870 [egg-logrotator] agent logger reload: got log-reload message
+2020-07-08 21:05:10,553 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 6418122ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+
+2020-07-09 09:34:20,711 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 34890005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+

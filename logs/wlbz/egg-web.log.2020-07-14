@@ -1,0 +1,22 @@
+2020-07-14 11:39:38,919 INFO 1996 [egg-logrotator] app logger reload: got log-reload message
+2020-07-14 16:09:36,465 INFO 1996 [-/127.0.0.1/-/12ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz"
+2020-07-14 16:09:36,475 INFO 1996 [-/127.0.0.1/-/25ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-07-14 20:43:21,173 WARN 1996 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-14 20:43:21,186 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 00:41:11,558 WARN 1996 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-15 00:41:11,562 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 01:17:15,191 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 03:28:35,106 WARN 1996 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-15 03:28:35,106 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 05:38:48,139 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 06:36:11,083 WARN 1996 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-15 06:36:11,084 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 08:07:40,849 WARN 1996 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-15 08:07:40,849 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 08:33:17,740 WARN 1996 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-15 08:33:17,742 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 09:37:41,520 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-15 10:46:03,289 INFO 1996 [egg-logrotator] start remove /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz files: common-error.log.2020-06-13, egg-agent.log.2020-06-13, egg-schedule.log.2020-06-13, egg-web.log.2020-06-13, wlbz-web.log.2020-06-13
+2020-07-15 10:46:03,293 INFO 1996 [egg-logrotator] clean all log before 31 days
+2020-07-15 10:46:04,246 INFO 1996 [egg-logrotator] broadcast log-reload
+2020-07-15 10:46:04,246 INFO 1996 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-07-14","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-07-14","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-07-14","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-07-14","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-07-14"]

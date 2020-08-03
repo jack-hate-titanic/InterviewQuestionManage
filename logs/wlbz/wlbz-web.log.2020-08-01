@@ -1,0 +1,18 @@
+2020-08-01 22:25:24,210 ERROR 12749 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+    at Pool.emit (events.js:189:13)
+    at createConnection (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/pool.js:562:14)
+    at connect (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/pool.js:985:11)
+    at makeConnection (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:40:11)
+    at callback (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+    at Socket.err (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+    at Object.onceWrapper (events.js:277:13)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 12749
+hostname: senge.local
+

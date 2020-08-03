@@ -7,5 +7,5 @@ module.exports = (app) => {
     analysis: { type: String },
   });
 
-  return mongoose.model("js", JsSchema, "marx");
+  return mongoose.model("js", JsSchema, "js");
 };

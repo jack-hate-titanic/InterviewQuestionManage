@@ -1,0 +1,16 @@
+2020-07-06 09:13:42,260 INFO 997 [egg-logrotator] app logger reload: got log-reload message
+2020-07-06 09:53:26,736 WARN 997 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-06 10:39:45,531 WARN 997 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-06 12:58:39,771 WARN 997 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-06 13:43:33,054 WARN 997 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-06 13:52:04,769 WARN 997 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-06 13:52:04,769 WARN 997 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-06 15:42:26,203 INFO 997 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz"
+2020-07-06 15:42:26,205 INFO 997 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-07-06 22:02:26,128 WARN 997 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-06 22:02:26,130 WARN 997 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-07 10:35:00,636 WARN 997 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-07 13:47:54,506 INFO 997 [egg-logrotator] start remove /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz files: common-error.log.2020-06-05, egg-agent.log.2020-06-05, egg-schedule.log.2020-06-05, egg-web.log.2020-06-05, wlbz-web.log.2020-06-05
+2020-07-07 13:47:54,510 INFO 997 [egg-logrotator] clean all log before 31 days
+2020-07-07 13:47:55,488 INFO 997 [egg-logrotator] broadcast log-reload
+2020-07-07 13:47:55,488 INFO 997 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-07-06","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-07-06","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-07-06","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-07-06","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-07-06"]

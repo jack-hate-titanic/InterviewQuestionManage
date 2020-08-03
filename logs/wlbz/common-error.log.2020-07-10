@@ -1,0 +1,60 @@
+2020-07-10 22:10:21,778 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 6164141ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+
+2020-07-11 00:09:17,726 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 1195374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+
+2020-07-11 00:35:35,118 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 1557384ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+
+2020-07-11 02:23:56,001 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 4320192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+
+2020-07-11 04:12:28,080 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 6471655ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+
+2020-07-11 08:45:01,002 ERROR 1870 nodejs.ClusterClientNoResponseError: client no response in 16312910ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1870
+hostname: kubandeMacBook-Pro.local
+
