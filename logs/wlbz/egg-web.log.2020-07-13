@@ -1,7 +1,0 @@
-2020-07-13 18:14:17,994 INFO 1996 [egg-logrotator] app logger reload: got log-reload message
-2020-07-13 20:51:43,824 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-07-14 08:15:10,041 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-07-14 09:32:53,044 WARN 1996 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-07-14 11:39:37,983 INFO 1996 [egg-logrotator] clean all log before 31 days
-2020-07-14 11:39:38,903 INFO 1996 [egg-logrotator] broadcast log-reload
-2020-07-14 11:39:38,903 INFO 1996 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-07-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-07-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-07-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-07-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-07-13"]

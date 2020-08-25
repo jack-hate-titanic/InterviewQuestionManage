@@ -95,5 +95,17 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": "files",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/file",
+    "regexp": "/^\\/api\\/v1\\/file(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
   }
 ]

@@ -137,9 +137,12 @@
       "fieldNameSize": 100,
       "fieldSize": 102400,
       "fields": 10,
-      "fileSize": 10485760,
+      "fileSize": 52428800,
       "files": 10,
-      "fileExtensions": [],
+      "fileExtensions": [
+        ".xls",
+        ".txt"
+      ],
       "whitelist": null,
       "tmpdir": "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz",
       "cleanSchedule": {
@@ -211,9 +214,12 @@
         "declarations": true
       },
       "dependencies": {
+        "await-stream-ready": "^1.0.1",
+        "dayjs": "^1.8.34",
         "egg": "^2.15.1",
         "egg-mongoose": "^3.2.0",
-        "egg-scripts": "^2.11.0"
+        "egg-scripts": "^2.11.0",
+        "stream-wormhole": "^1.1.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -370,7 +376,7 @@
         "fieldNameSize": 100,
         "fieldSize": 102400,
         "fields": 10,
-        "fileSize": 10485760,
+        "fileSize": 52428800,
         "files": 10
       },
       "checkFile": "<Function checkFile>"

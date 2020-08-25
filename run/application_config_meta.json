@@ -66,6 +66,22 @@
     "app": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-mongoose/config/config.default.js",
     "agent": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-mongoose/config/config.default.js"
   },
+  "multipart": {
+    "fileSize": "/Users/kuban/Desktop/InterviewQuestionManage/config/config.default.js",
+    "mode": "/Users/kuban/Desktop/InterviewQuestionManage/config/config.default.js",
+    "fileExtensions": "/Users/kuban/Desktop/InterviewQuestionManage/config/config.default.js",
+    "autoFields": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
   "session": {
     "maxAge": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-session/config/config.default.js",
     "key": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-session/config/config.default.js",
@@ -108,22 +124,6 @@
   },
   "schedule": {
     "directory": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-schedule/config/config.default.js"
-  },
-  "multipart": {
-    "mode": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js",
-    "cleanSchedule": {
-      "cron": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/config.default.js"
-    }
   },
   "development": {
     "watchDirs": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/config/config.default.js",
@@ -173,9 +173,12 @@
       "declarations": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
+      "await-stream-ready": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
+      "dayjs": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "egg": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "egg-mongoose": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js"
+      "egg-scripts": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",

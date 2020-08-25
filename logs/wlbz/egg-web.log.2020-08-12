@@ -1,0 +1,48 @@
+2020-08-04 13:22:51,526 INFO 24386 [egg-logrotator] app logger reload: got log-reload message
+2020-08-12 18:06:42,085 INFO 21404 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-12 18:06:42,112 INFO 21404 [egg-multipart] stream mode enable
+2020-08-12 18:06:42,506 INFO 21404 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-08-12 18:06:42,606 INFO 21404 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-08-12 18:06:42,608 INFO 21404 [egg-security] use methodnoallow middleware
+2020-08-12 18:06:42,609 INFO 21404 [egg-security] use noopen middleware
+2020-08-12 18:06:42,610 INFO 21404 [egg-security] use nosniff middleware
+2020-08-12 18:06:42,610 INFO 21404 [egg-security] use xssProtection middleware
+2020-08-12 18:06:42,611 INFO 21404 [egg-security] use xframe middleware
+2020-08-12 18:06:42,611 INFO 21404 [egg-security] use dta middleware
+2020-08-12 18:06:42,611 INFO 21404 [egg-security] compose 6 middlewares into one security middleware
+2020-08-12 18:06:42,630 INFO 21404 [egg:core] dump config after load, 8ms
+2020-08-12 18:06:42,634 INFO 21404 [egg-mongoose] starting...
+2020-08-12 18:06:42,669 INFO 21404 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-08-12 18:06:42,670 INFO 21404 [egg-mongoose] instance[0] start successfully
+2020-08-12 18:06:42,672 INFO 21404 [egg-watcher:application] watcher start success
+2020-08-12 18:06:42,678 INFO 21404 [egg:core] dump config after ready, 4ms
+2020-08-12 21:41:01,021 INFO 2273 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-12 21:41:01,048 INFO 2273 [egg-multipart] stream mode enable
+2020-08-12 21:41:01,418 INFO 2273 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-08-12 21:41:01,507 INFO 2273 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-08-12 21:41:01,510 INFO 2273 [egg-security] use methodnoallow middleware
+2020-08-12 21:41:01,510 INFO 2273 [egg-security] use noopen middleware
+2020-08-12 21:41:01,511 INFO 2273 [egg-security] use nosniff middleware
+2020-08-12 21:41:01,511 INFO 2273 [egg-security] use xssProtection middleware
+2020-08-12 21:41:01,512 INFO 2273 [egg-security] use xframe middleware
+2020-08-12 21:41:01,512 INFO 2273 [egg-security] use dta middleware
+2020-08-12 21:41:01,513 INFO 2273 [egg-security] compose 6 middlewares into one security middleware
+2020-08-12 21:41:01,528 INFO 2273 [egg:core] dump config after load, 5ms
+2020-08-12 21:41:01,532 INFO 2273 [egg-mongoose] starting...
+2020-08-12 21:41:01,563 INFO 2273 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-08-12 21:41:01,565 INFO 2273 [egg-mongoose] instance[0] start successfully
+2020-08-12 21:41:01,568 INFO 2273 [egg-watcher:application] watcher start success
+2020-08-12 21:41:01,574 INFO 2273 [egg:core] dump config after ready, 3ms
+2020-08-13 00:09:09,385 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 00:12:21,388 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 00:21:39,125 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 02:46:05,685 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 03:12:39,084 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 07:15:44,927 WARN 2273 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-13 07:15:44,927 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 08:48:24,634 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 09:33:17,092 WARN 2273 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-08-13 10:16:55,889 INFO 2273 [egg-logrotator] start remove /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz files: common-error.log.2020-07-04, common-error.log.2020-07-05, common-error.log.2020-07-06, common-error.log.2020-07-07, common-error.log.2020-07-08, common-error.log.2020-07-09, common-error.log.2020-07-10, common-error.log.2020-07-11, common-error.log.2020-07-12, egg-agent.log.2020-07-04, egg-agent.log.2020-07-05, egg-agent.log.2020-07-06, egg-agent.log.2020-07-07, egg-agent.log.2020-07-08, egg-agent.log.2020-07-09, egg-agent.log.2020-07-10, egg-agent.log.2020-07-11, egg-agent.log.2020-07-12, egg-schedule.log.2020-07-04, egg-schedule.log.2020-07-05, egg-schedule.log.2020-07-06, egg-schedule.log.2020-07-07, egg-schedule.log.2020-07-08, egg-schedule.log.2020-07-09, egg-schedule.log.2020-07-10, egg-schedule.log.2020-07-11, egg-schedule.log.2020-07-12, egg-web.log.2020-07-04, egg-web.log.2020-07-05, egg-web.log.2020-07-06, egg-web.log.2020-07-07, egg-web.log.2020-07-08, egg-web.log.2020-07-09, egg-web.log.2020-07-10, egg-web.log.2020-07-11, egg-web.log.2020-07-12, wlbz-web.log.2020-07-04, wlbz-web.log.2020-07-05, wlbz-web.log.2020-07-06, wlbz-web.log.2020-07-07, wlbz-web.log.2020-07-08, wlbz-web.log.2020-07-09, wlbz-web.log.2020-07-10, wlbz-web.log.2020-07-11, wlbz-web.log.2020-07-12
+2020-08-13 10:16:55,907 INFO 2273 [egg-logrotator] clean all log before 31 days
+2020-08-13 10:16:56,877 INFO 2273 [egg-logrotator] broadcast log-reload
+2020-08-13 10:16:56,877 INFO 2273 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-08-12","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-08-12","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-08-12","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-08-12","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-08-12"]

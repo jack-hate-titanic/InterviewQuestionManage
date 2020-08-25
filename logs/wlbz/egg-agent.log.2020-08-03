@@ -1,0 +1,21 @@
+2020-08-03 10:25:09,498 INFO 12818 [egg-logrotator] agent logger reload: got log-reload message
+2020-08-03 20:31:04,639 ERROR 12818 nodejs.ClusterClientNoResponseError: client no response in 4217411ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12818
+hostname: senge.local
+
+2020-08-03 22:38:15,346 ERROR 12818 nodejs.ClusterClientNoResponseError: client no response in 3910115ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 12818
+hostname: senge.local
+
