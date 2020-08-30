@@ -102,8 +102,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/v1/file",
-    "regexp": "/^\\/api\\/v1\\/file(?:\\/(?=$))?$/",
+    "path": "/api/file",
+    "regexp": "/^\\/api\\/file(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

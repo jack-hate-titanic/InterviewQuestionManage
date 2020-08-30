@@ -8,5 +8,5 @@ module.exports = (app) => {
   router.get("/api/js/:id", controller.js.show);
 
   router.get("/api", controller.js.index);
-  router.resources("file", "/api/v1/file", controller.file);
+  router.resources("file", "/api/file", controller.file);
 };

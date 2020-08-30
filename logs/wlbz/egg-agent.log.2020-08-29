@@ -1,0 +1,50 @@
+2020-08-28 09:41:22,887 INFO 14891 [egg-logrotator] agent logger reload: got log-reload message
+2020-08-29 15:07:25,957 INFO 2326 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-29 15:07:25,967 INFO 2326 [egg:core] dump config after load, 4ms
+2020-08-29 15:07:26,014 INFO 2326 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2020-08-29 15:07:26,014 INFO 2326 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2020-08-29 15:07:26,015 INFO 2326 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2020-08-29 15:07:26,015 INFO 2326 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2020-08-29 15:07:26,015 INFO 2326 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-08-29 15:07:26,015 INFO 2326 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2020-08-29 15:07:26,015 INFO 2326 [egg-watcher:agent] watcher start success
+2020-08-29 15:07:26,025 INFO 2326 [egg:core] dump config after ready, 3ms
+2020-08-29 15:27:39,439 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598686059376.jpg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933344796,"size":43226,"blocks":88,"atimeMs":1598686059438.2422,"mtimeMs":1598686059377.759,"ctimeMs":1598686059377.759,"birthtimeMs":1598686059376.5894,"atime":"2020-08-29T07:27:39.438Z","mtime":"2020-08-29T07:27:39.378Z","ctime":"2020-08-29T07:27:39.378Z","birthtime":"2020-08-29T07:27:39.377Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 15:29:45,070 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598686185008.jpg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933345336,"size":119861,"blocks":240,"atimeMs":1598686185069.6785,"mtimeMs":1598686185009.0122,"ctimeMs":1598686185009.0122,"birthtimeMs":1598686185008.2659,"atime":"2020-08-29T07:29:45.070Z","mtime":"2020-08-29T07:29:45.009Z","ctime":"2020-08-29T07:29:45.009Z","birthtime":"2020-08-29T07:29:45.008Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 15:48:11,787 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598687291726.jpg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933346704,"size":79377,"blocks":160,"atimeMs":1598687291787.524,"mtimeMs":1598687291727.6587,"ctimeMs":1598687291727.6587,"birthtimeMs":1598687291727.1296,"atime":"2020-08-29T07:48:11.788Z","mtime":"2020-08-29T07:48:11.728Z","ctime":"2020-08-29T07:48:11.728Z","birthtime":"2020-08-29T07:48:11.727Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 15:50:01,035 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598687400973.jpeg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933347032,"size":13835,"blocks":32,"atimeMs":1598687401035.2278,"mtimeMs":1598687400973.8298,"ctimeMs":1598687400973.8298,"birthtimeMs":1598687400973.644,"atime":"2020-08-29T07:50:01.035Z","mtime":"2020-08-29T07:50:00.974Z","ctime":"2020-08-29T07:50:00.974Z","birthtime":"2020-08-29T07:50:00.974Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 16:23:52,963 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598689432901.jpeg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933350637,"size":13711,"blocks":32,"atimeMs":1598689432962.8074,"mtimeMs":1598689432902.187,"ctimeMs":1598689432902.187,"birthtimeMs":1598689432901.8767,"atime":"2020-08-29T08:23:52.963Z","mtime":"2020-08-29T08:23:52.902Z","ctime":"2020-08-29T08:23:52.902Z","birthtime":"2020-08-29T08:23:52.902Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 17:14:34,667 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598692474606.jpeg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933353464,"size":183084,"blocks":360,"atimeMs":1598692474667.4138,"mtimeMs":1598692474608.0283,"ctimeMs":1598692474608.0283,"birthtimeMs":1598692474606.9722,"atime":"2020-08-29T09:14:34.667Z","mtime":"2020-08-29T09:14:34.608Z","ctime":"2020-08-29T09:14:34.608Z","birthtime":"2020-08-29T09:14:34.607Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 18:09:39,279 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598695779214.jpeg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933357284,"size":9747,"blocks":24,"atimeMs":1598695779277.358,"mtimeMs":1598695779215.898,"ctimeMs":1598695779215.898,"birthtimeMs":1598695779215.6787,"atime":"2020-08-29T10:09:39.277Z","mtime":"2020-08-29T10:09:39.216Z","ctime":"2020-08-29T10:09:39.216Z","birthtime":"2020-08-29T10:09:39.216Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 18:09:52,018 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598695792007.jpeg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933357409,"size":8613,"blocks":24,"atimeMs":1598695792007.8767,"mtimeMs":1598695792008.0208,"ctimeMs":1598695792008.0208,"birthtimeMs":1598695792007.8767,"atime":"2020-08-29T10:09:52.008Z","mtime":"2020-08-29T10:09:52.008Z","ctime":"2020-08-29T10:09:52.008Z","birthtime":"2020-08-29T10:09:52.008Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 18:10:04,630 INFO 2326 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1598695804619.jpeg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12933357479,"size":13869,"blocks":32,"atimeMs":1598695804620.0986,"mtimeMs":1598695804620.2368,"ctimeMs":1598695804620.2368,"birthtimeMs":1598695804620.0986,"atime":"2020-08-29T10:10:04.620Z","mtime":"2020-08-29T10:10:04.620Z","ctime":"2020-08-29T10:10:04.620Z","birthtime":"2020-08-29T10:10:04.620Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-29 19:52:34,775 ERROR 2326 nodejs.ClusterClientNoResponseError: client no response in 5366261ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2326
+hostname: senge.local
+
+2020-08-30 09:44:22,710 ERROR 2326 nodejs.ClusterClientNoResponseError: client no response in 42546470ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2326
+hostname: senge.local
+
+2020-08-30 11:39:13,499 ERROR 2326 nodejs.ClusterClientNoResponseError: client no response in 6710902ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2326
+hostname: senge.local
+
