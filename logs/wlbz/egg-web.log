@@ -1,1 +1,7 @@
-2020-08-30 15:09:24,780 INFO 2327 [egg-logrotator] app logger reload: got log-reload message
+2020-10-05 08:56:03,540 INFO 78780 [egg-logrotator] app logger reload: got log-reload message
+2020-10-05 13:26:01,753 INFO 78780 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz"
+2020-10-05 13:26:01,755 INFO 78780 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-10-05 15:36:31,105 WARN 78780 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-10-06 05:32:27,732 WARN 78780 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-10-06 10:35:01,374 WARN 78780 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-10-06 10:35:01,374 WARN 78780 [ClusterClient:Watcher] follower closed, and try to init it again

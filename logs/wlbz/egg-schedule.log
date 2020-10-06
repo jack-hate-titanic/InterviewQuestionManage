@@ -1,0 +1,3 @@
+2020-10-05 13:26:01,752 INFO 78780 [Job#16018755617514801824025893491] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-10-05 13:26:01,755 INFO 78780 [Job#16018755617514801824025893491] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 3ms
+2020-10-05 13:26:01,755 INFO 78773 [Timer] /Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 54238248ms at 2020-10-06 04:30:00.003

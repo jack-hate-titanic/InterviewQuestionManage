@@ -1,0 +1,51 @@
+2020-09-10 00:00:00,546 INFO 3867 [egg-logrotator] app logger reload: got log-reload message
+2020-09-10 09:34:02,630 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-10 09:35:43,469 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-10 16:20:25,069 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-10 21:30:13,279 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-10 22:24:19,800 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-10 22:58:28,099 INFO 3867 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz"
+2020-09-10 22:58:28,103 INFO 3867 [-/127.0.0.1/-/6ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-09-11 09:31:13,747 WARN 3867 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-11 09:31:13,747 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-11 14:09:32,806 INFO 3867 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz"
+2020-09-11 14:09:32,809 INFO 3867 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-09-11 19:41:59,636 WARN 3867 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-11 19:41:59,638 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-11 20:05:28,655 WARN 3867 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-11 20:05:28,656 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-12 08:03:01,483 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-13 11:05:09,549 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-13 16:01:58,807 WARN 3867 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-13 18:08:04,823 INFO 47631 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-13 18:08:04,860 INFO 47631 [egg-multipart] stream mode enable
+2020-09-13 18:08:05,235 INFO 47631 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-09-13 18:08:05,304 INFO 47631 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-09-13 18:08:05,306 INFO 47631 [egg-security] use methodnoallow middleware
+2020-09-13 18:08:05,307 INFO 47631 [egg-security] use noopen middleware
+2020-09-13 18:08:05,307 INFO 47631 [egg-security] use nosniff middleware
+2020-09-13 18:08:05,308 INFO 47631 [egg-security] use xssProtection middleware
+2020-09-13 18:08:05,308 INFO 47631 [egg-security] use xframe middleware
+2020-09-13 18:08:05,309 INFO 47631 [egg-security] use dta middleware
+2020-09-13 18:08:05,309 INFO 47631 [egg-security] compose 6 middlewares into one security middleware
+2020-09-13 18:08:05,327 INFO 47631 [egg:core] dump config after load, 5ms
+2020-09-13 18:08:05,332 INFO 47631 [egg-mongoose] starting...
+2020-09-13 18:08:05,361 INFO 47631 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-09-13 18:08:05,363 INFO 47631 [egg-mongoose] instance[0] start successfully
+2020-09-13 18:08:05,366 INFO 47631 [egg-watcher:application] watcher start success
+2020-09-13 18:08:05,372 INFO 47631 [egg:core] dump config after ready, 3ms
+2020-09-13 23:57:18,951 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 00:31:14,981 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 01:07:21,976 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 02:20:58,866 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 03:29:11,621 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 04:21:43,124 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 06:45:50,131 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 07:56:24,136 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 08:06:46,152 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 08:29:24,512 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 09:35:44,179 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-14 10:50:19,094 INFO 47631 [egg-logrotator] start remove /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz files: common-error.log.2020-08-12, common-error.log.2020-08-13, egg-agent.log.2020-08-12, egg-agent.log.2020-08-13, egg-schedule.log.2020-08-12, egg-schedule.log.2020-08-13, egg-web.log.2020-08-12, egg-web.log.2020-08-13, wlbz-web.log.2020-08-12, wlbz-web.log.2020-08-13
+2020-09-14 10:50:19,100 INFO 47631 [egg-logrotator] clean all log before 31 days
+2020-09-14 10:50:20,082 INFO 47631 [egg-logrotator] broadcast log-reload
+2020-09-14 10:50:20,082 INFO 47631 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-09-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-09-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-09-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-09-13","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-09-13"]

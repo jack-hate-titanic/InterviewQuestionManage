@@ -1,0 +1,105 @@
+2020-09-17 11:38:59,590 INFO 47631 [egg-logrotator] app logger reload: got log-reload message
+2020-09-17 16:08:58,646 INFO 47631 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz"
+2020-09-17 16:08:58,654 INFO 47631 [-/127.0.0.1/-/13ms SCHEDULE /__schedule?path=/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-09-17 21:02:33,124 WARN 47631 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-17 21:02:33,131 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-17 22:21:34,679 WARN 47631 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-19 09:33:03,456 INFO 623 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-19 09:33:03,484 INFO 623 [egg-multipart] stream mode enable
+2020-09-19 09:33:03,837 INFO 623 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-09-19 09:33:03,919 INFO 623 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-09-19 09:33:03,922 INFO 623 [egg-security] use methodnoallow middleware
+2020-09-19 09:33:03,922 INFO 623 [egg-security] use noopen middleware
+2020-09-19 09:33:03,923 INFO 623 [egg-security] use nosniff middleware
+2020-09-19 09:33:03,924 INFO 623 [egg-security] use xssProtection middleware
+2020-09-19 09:33:03,924 INFO 623 [egg-security] use xframe middleware
+2020-09-19 09:33:03,925 INFO 623 [egg-security] use dta middleware
+2020-09-19 09:33:03,925 INFO 623 [egg-security] compose 6 middlewares into one security middleware
+2020-09-19 09:33:03,946 INFO 623 [egg:core] dump config after load, 7ms
+2020-09-19 09:33:03,950 INFO 623 [egg-mongoose] starting...
+2020-09-19 09:33:03,975 ERROR 623 [egg-mongoose] mongodb://127.0.0.1:27017/interview disconnected
+2020-09-19 09:33:03,976 ERROR 623 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+    at Pool.emit (events.js:189:13)
+    at createConnection (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/pool.js:562:14)
+    at connect (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/pool.js:985:11)
+    at makeConnection (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:40:11)
+    at callback (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+    at Socket.err (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+    at Object.onceWrapper (events.js:277:13)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 623
+hostname: senge.local
+
+2020-09-19 09:33:03,977 ERROR 623 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+    at Pool.emit (events.js:189:13)
+    at createConnection (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/pool.js:562:14)
+    at connect (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/pool.js:985:11)
+    at makeConnection (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:40:11)
+    at callback (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+    at Socket.err (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+    at Object.onceWrapper (events.js:277:13)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "MongoNetworkError"
+errorLabels: ["TransientTransactionError"]
+pid: 623
+hostname: senge.local
+
+2020-09-19 09:33:03,983 INFO 623 [egg:core] dump config after ready, 3ms
+2020-09-19 09:33:03,986 INFO 623 [egg-watcher:application] watcher start success
+2020-09-19 09:43:07,333 INFO 707 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-19 09:43:07,358 INFO 707 [egg-multipart] stream mode enable
+2020-09-19 09:43:07,566 INFO 707 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-09-19 09:43:07,613 INFO 707 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-09-19 09:43:07,616 INFO 707 [egg-security] use methodnoallow middleware
+2020-09-19 09:43:07,616 INFO 707 [egg-security] use noopen middleware
+2020-09-19 09:43:07,616 INFO 707 [egg-security] use nosniff middleware
+2020-09-19 09:43:07,617 INFO 707 [egg-security] use xssProtection middleware
+2020-09-19 09:43:07,617 INFO 707 [egg-security] use xframe middleware
+2020-09-19 09:43:07,618 INFO 707 [egg-security] use dta middleware
+2020-09-19 09:43:07,618 INFO 707 [egg-security] compose 6 middlewares into one security middleware
+2020-09-19 09:43:07,642 INFO 707 [egg:core] dump config after load, 10ms
+2020-09-19 09:43:07,646 INFO 707 [egg-mongoose] starting...
+2020-09-19 09:43:07,673 INFO 707 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-09-19 09:43:07,675 INFO 707 [egg-mongoose] instance[0] start successfully
+2020-09-19 09:43:07,677 INFO 707 [egg-watcher:application] watcher start success
+2020-09-19 09:43:07,683 INFO 707 [egg:core] dump config after ready, 4ms
+2020-09-19 11:14:36,583 WARN 707 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-19 11:16:36,893 WARN 707 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-19 11:16:36,894 WARN 707 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-19 11:23:06,097 WARN 707 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-19 11:27:23,415 WARN 707 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-19 19:42:59,744 WARN 707 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-19 19:42:59,745 WARN 707 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-19 20:19:23,530 INFO 1021 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-19 20:19:23,560 INFO 1021 [egg-multipart] stream mode enable
+2020-09-19 20:19:23,894 INFO 1021 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-09-19 20:19:23,972 INFO 1021 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-09-19 20:19:23,976 INFO 1021 [egg-security] use methodnoallow middleware
+2020-09-19 20:19:23,977 INFO 1021 [egg-security] use noopen middleware
+2020-09-19 20:19:23,978 INFO 1021 [egg-security] use nosniff middleware
+2020-09-19 20:19:23,978 INFO 1021 [egg-security] use xssProtection middleware
+2020-09-19 20:19:23,979 INFO 1021 [egg-security] use xframe middleware
+2020-09-19 20:19:23,980 INFO 1021 [egg-security] use dta middleware
+2020-09-19 20:19:23,980 INFO 1021 [egg-security] compose 6 middlewares into one security middleware
+2020-09-19 20:19:24,000 INFO 1021 [egg:core] dump config after load, 5ms
+2020-09-19 20:19:24,004 INFO 1021 [egg-mongoose] starting...
+2020-09-19 20:19:24,033 INFO 1021 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-09-19 20:19:24,034 INFO 1021 [egg-mongoose] instance[0] start successfully
+2020-09-19 20:19:24,037 INFO 1021 [egg-watcher:application] watcher start success
+2020-09-19 20:19:24,042 INFO 1021 [egg:core] dump config after ready, 3ms
+2020-09-20 10:12:04,098 WARN 1021 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-20 10:25:29,965 WARN 1021 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-20 10:25:29,965 WARN 1021 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-20 10:28:05,086 INFO 1021 [egg-logrotator] clean all log before 31 days
+2020-09-20 10:28:06,078 INFO 1021 [egg-logrotator] broadcast log-reload
+2020-09-20 10:28:06,078 INFO 1021 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-09-19","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-09-19","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-09-19","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-09-19","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-09-19"]

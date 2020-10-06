@@ -1,0 +1,32 @@
+2020-09-08 10:13:43,579 INFO 628 [egg-logrotator] agent logger reload: got log-reload message
+2020-09-08 20:51:09,672 ERROR 628 nodejs.ClusterClientNoResponseError: client no response in 4255301ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 628
+hostname: senge.local
+
+2020-09-08 22:58:37,999 INFO 628 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1599577117932.jpg","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12934741305,"size":80252,"blocks":160,"atimeMs":1599577117994.9714,"mtimeMs":1599577117933.965,"ctimeMs":1599577117933.965,"birthtimeMs":1599577117933.2332,"atime":"2020-09-08T14:58:37.995Z","mtime":"2020-09-08T14:58:37.934Z","ctime":"2020-09-08T14:58:37.934Z","birthtime":"2020-09-08T14:58:37.933Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-08 23:32:19,003 ERROR 628 nodejs.ClusterClientNoResponseError: client no response in 90035ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 628
+hostname: senge.local
+
+2020-09-09 09:33:41,143 ERROR 628 nodejs.ClusterClientNoResponseError: client no response in 34481021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 628
+hostname: senge.local
+

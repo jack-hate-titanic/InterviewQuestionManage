@@ -1,0 +1,25 @@
+2020-09-23 13:59:25,117 INFO 1021 [egg-logrotator] app logger reload: got log-reload message
+2020-09-23 16:16:40,197 WARN 1021 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-28 22:32:36,057 INFO 43898 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-28 22:32:36,086 INFO 43898 [egg-multipart] stream mode enable
+2020-09-28 22:32:36,518 INFO 43898 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-09-28 22:32:36,606 INFO 43898 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-09-28 22:32:36,609 INFO 43898 [egg-security] use methodnoallow middleware
+2020-09-28 22:32:36,610 INFO 43898 [egg-security] use noopen middleware
+2020-09-28 22:32:36,611 INFO 43898 [egg-security] use nosniff middleware
+2020-09-28 22:32:36,612 INFO 43898 [egg-security] use xssProtection middleware
+2020-09-28 22:32:36,612 INFO 43898 [egg-security] use xframe middleware
+2020-09-28 22:32:36,613 INFO 43898 [egg-security] use dta middleware
+2020-09-28 22:32:36,613 INFO 43898 [egg-security] compose 6 middlewares into one security middleware
+2020-09-28 22:32:36,640 INFO 43898 [egg:core] dump config after load, 9ms
+2020-09-28 22:32:36,644 INFO 43898 [egg-mongoose] starting...
+2020-09-28 22:32:36,676 INFO 43898 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-09-28 22:32:36,678 INFO 43898 [egg-mongoose] instance[0] start successfully
+2020-09-28 22:32:36,680 INFO 43898 [egg-watcher:application] watcher start success
+2020-09-28 22:32:36,685 INFO 43898 [egg:core] dump config after ready, 3ms
+2020-09-28 23:14:51,666 WARN 43898 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-29 09:34:24,544 WARN 43898 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-29 10:14:07,588 INFO 43898 [egg-logrotator] start remove /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz files: common-error.log.2020-08-24, common-error.log.2020-08-26, common-error.log.2020-08-27, egg-agent.log.2020-08-24, egg-agent.log.2020-08-26, egg-agent.log.2020-08-27, egg-schedule.log.2020-08-24, egg-schedule.log.2020-08-26, egg-schedule.log.2020-08-27, egg-web.log.2020-08-24, egg-web.log.2020-08-26, egg-web.log.2020-08-27, wlbz-web.log.2020-08-24, wlbz-web.log.2020-08-26, wlbz-web.log.2020-08-27
+2020-09-29 10:14:07,596 INFO 43898 [egg-logrotator] clean all log before 31 days
+2020-09-29 10:14:08,587 INFO 43898 [egg-logrotator] broadcast log-reload
+2020-09-29 10:14:08,587 INFO 43898 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-09-28","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-09-28","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-09-28","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-09-28","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-09-28"]

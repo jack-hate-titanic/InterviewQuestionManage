@@ -1,0 +1,38 @@
+2020-09-09 10:46:21,805 INFO 629 [egg-logrotator] app logger reload: got log-reload message
+2020-09-09 13:50:41,844 INFO 930 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-09 13:50:41,870 INFO 930 [egg-multipart] stream mode enable
+2020-09-09 13:50:42,242 INFO 930 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-09-09 13:50:42,318 INFO 930 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-09-09 13:50:42,320 INFO 930 [egg-security] use methodnoallow middleware
+2020-09-09 13:50:42,321 INFO 930 [egg-security] use noopen middleware
+2020-09-09 13:50:42,322 INFO 930 [egg-security] use nosniff middleware
+2020-09-09 13:50:42,322 INFO 930 [egg-security] use xssProtection middleware
+2020-09-09 13:50:42,323 INFO 930 [egg-security] use xframe middleware
+2020-09-09 13:50:42,323 INFO 930 [egg-security] use dta middleware
+2020-09-09 13:50:42,323 INFO 930 [egg-security] compose 6 middlewares into one security middleware
+2020-09-09 13:50:42,343 INFO 930 [egg:core] dump config after load, 5ms
+2020-09-09 13:50:42,346 INFO 930 [egg-mongoose] starting...
+2020-09-09 13:50:42,379 INFO 930 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-09-09 13:50:42,381 INFO 930 [egg-mongoose] instance[0] start successfully
+2020-09-09 13:50:42,383 INFO 930 [egg-watcher:application] watcher start success
+2020-09-09 13:50:42,389 INFO 930 [egg:core] dump config after ready, 4ms
+2020-09-09 21:32:48,412 INFO 3867 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-09 21:32:48,439 INFO 3867 [egg-multipart] stream mode enable
+2020-09-09 21:32:48,813 INFO 3867 [egg-mongoose] connecting mongodb://127.0.0.1:27017/interview
+2020-09-09 21:32:48,899 INFO 3867 [egg-static] starting static serve /public/ -> /Users/kuban/Desktop/InterviewQuestionManage/app/public
+2020-09-09 21:32:48,902 INFO 3867 [egg-security] use methodnoallow middleware
+2020-09-09 21:32:48,903 INFO 3867 [egg-security] use noopen middleware
+2020-09-09 21:32:48,903 INFO 3867 [egg-security] use nosniff middleware
+2020-09-09 21:32:48,904 INFO 3867 [egg-security] use xssProtection middleware
+2020-09-09 21:32:48,904 INFO 3867 [egg-security] use xframe middleware
+2020-09-09 21:32:48,905 INFO 3867 [egg-security] use dta middleware
+2020-09-09 21:32:48,905 INFO 3867 [egg-security] compose 6 middlewares into one security middleware
+2020-09-09 21:32:48,924 INFO 3867 [egg:core] dump config after load, 4ms
+2020-09-09 21:32:48,928 INFO 3867 [egg-mongoose] starting...
+2020-09-09 21:32:48,958 INFO 3867 [egg-mongoose] mongodb://127.0.0.1:27017/interview connected successfully
+2020-09-09 21:32:48,959 INFO 3867 [egg-mongoose] instance[0] start successfully
+2020-09-09 21:32:48,961 INFO 3867 [egg-watcher:application] watcher start success
+2020-09-09 21:32:48,967 INFO 3867 [egg:core] dump config after ready, 4ms
+2020-09-09 23:59:59,563 INFO 3867 [egg-logrotator] clean all log before 31 days
+2020-09-10 00:00:00,544 INFO 3867 [egg-logrotator] broadcast log-reload
+2020-09-10 00:00:00,544 INFO 3867 [egg-logrotator] rotate files success by DayRotator, files ["/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-09-09","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-09-09","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-09-09","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-09-09","/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-09-09"]

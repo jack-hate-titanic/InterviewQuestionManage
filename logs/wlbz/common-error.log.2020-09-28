@@ -1,31 +1,30 @@
-2020-10-05 08:56:03,539 INFO 78773 [egg-logrotator] agent logger reload: got log-reload message
-2020-10-05 15:36:31,105 ERROR 78773 nodejs.ClusterClientNoResponseError: client no response in 6472618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-09-23 16:16:40,199 ERROR 1019 nodejs.ClusterClientNoResponseError: client no response in 88216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 78773
+pid: 1019
 hostname: senge.local
 
-2020-10-06 05:32:27,732 ERROR 78773 nodejs.ClusterClientNoResponseError: client no response in 43275189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-09-28 23:14:51,666 ERROR 43897 nodejs.ClusterClientNoResponseError: client no response in 1254782ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 78773
+pid: 43897
 hostname: senge.local
 
-2020-10-06 10:35:01,374 ERROR 78773 nodejs.ClusterClientNoResponseError: client no response in 18153640ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-09-29 09:34:24,544 ERROR 43897 nodejs.ClusterClientNoResponseError: client no response in 35632633ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 78773
+pid: 43897
 hostname: senge.local
 

@@ -1,0 +1,122 @@
+2020-09-17 11:38:59,591 INFO 3866 [egg-logrotator] agent logger reload: got log-reload message
+2020-09-17 21:02:33,117 ERROR 3866 nodejs.ClusterClientNoResponseError: client no response in 190209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3866
+hostname: senge.local
+
+2020-09-17 22:21:34,681 ERROR 3866 nodejs.ClusterClientNoResponseError: client no response in 4703131ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3866
+hostname: senge.local
+
+2020-09-19 09:33:02,345 INFO 622 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-19 09:33:02,358 INFO 622 [egg:core] dump config after load, 4ms
+2020-09-19 09:33:02,405 INFO 622 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2020-09-19 09:33:02,406 INFO 622 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2020-09-19 09:33:02,406 INFO 622 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2020-09-19 09:33:02,406 INFO 622 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2020-09-19 09:33:02,406 INFO 622 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-09-19 09:33:02,406 INFO 622 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2020-09-19 09:33:02,406 INFO 622 [egg-watcher:agent] watcher start success
+2020-09-19 09:33:02,419 INFO 622 [egg:core] dump config after ready, 3ms
+2020-09-19 09:43:06,387 INFO 706 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-19 09:43:06,398 INFO 706 [egg:core] dump config after load, 4ms
+2020-09-19 09:43:06,431 INFO 706 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2020-09-19 09:43:06,431 INFO 706 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2020-09-19 09:43:06,432 INFO 706 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2020-09-19 09:43:06,432 INFO 706 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2020-09-19 09:43:06,432 INFO 706 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-09-19 09:43:06,432 INFO 706 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2020-09-19 09:43:06,432 INFO 706 [egg-watcher:agent] watcher start success
+2020-09-19 09:43:06,443 INFO 706 [egg:core] dump config after ready, 4ms
+2020-09-19 11:14:36,586 ERROR 706 nodejs.ClusterClientNoResponseError: client no response in 168108ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 706
+hostname: senge.local
+
+2020-09-19 11:16:36,893 ERROR 706 nodejs.ClusterClientNoResponseError: client no response in 80297ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 706
+hostname: senge.local
+
+2020-09-19 11:23:06,098 ERROR 706 nodejs.ClusterClientNoResponseError: client no response in 369168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 706
+hostname: senge.local
+
+2020-09-19 11:27:23,415 ERROR 706 nodejs.ClusterClientNoResponseError: client no response in 217296ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 706
+hostname: senge.local
+
+2020-09-19 19:42:59,745 ERROR 706 nodejs.ClusterClientNoResponseError: client no response in 29716268ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 706
+hostname: senge.local
+
+2020-09-19 20:19:22,477 INFO 1019 [egg:logger] init all loggers with options: {"dir":"/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-19 20:19:22,490 INFO 1019 [egg:core] dump config after load, 6ms
+2020-09-19 20:19:22,534 INFO 1019 [egg-watcher] Start watching: ["/Users/kuban/Desktop/InterviewQuestionManage/app","/Users/kuban/Desktop/InterviewQuestionManage/config","/Users/kuban/Desktop/InterviewQuestionManage/mocks","/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy","/Users/kuban/Desktop/InterviewQuestionManage/app.js"]
+2020-09-19 20:19:22,534 INFO 1019 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app"
+2020-09-19 20:19:22,535 INFO 1019 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/config"
+2020-09-19 20:19:22,535 INFO 1019 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks"
+2020-09-19 20:19:22,535 INFO 1019 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-09-19 20:19:22,535 INFO 1019 [egg-watcher] Start watching: "/Users/kuban/Desktop/InterviewQuestionManage/app.js"
+2020-09-19 20:19:22,535 INFO 1019 [egg-watcher:agent] watcher start success
+2020-09-19 20:19:22,547 INFO 1019 [egg:core] dump config after ready, 4ms
+2020-09-19 20:41:36,698 INFO 1019 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/kuban/Desktop/InterviewQuestionManage/app/public/uploads/1600519296634.jpeg","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12936068493,"size":9118,"blocks":24,"atimeMs":1600519296696.418,"mtimeMs":1600519296635.6562,"ctimeMs":1600519296635.6562,"birthtimeMs":1600519296634.7114,"atime":"2020-09-19T12:41:36.696Z","mtime":"2020-09-19T12:41:36.636Z","ctime":"2020-09-19T12:41:36.636Z","birthtime":"2020-09-19T12:41:36.635Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-20 10:12:04,101 ERROR 1019 nodejs.ClusterClientNoResponseError: client no response in 36995196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1019
+hostname: senge.local
+
+2020-09-20 10:25:29,965 ERROR 1019 nodejs.ClusterClientNoResponseError: client no response in 727355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 1019
+hostname: senge.local
+
