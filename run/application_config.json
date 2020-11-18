@@ -87,26 +87,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-session/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-security/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-jsonp/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-onerror/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-watcher/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-schedule/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-static/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-view/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-mongoose/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/locales",
-        "/Users/kuban/Desktop/InterviewQuestionManage/config/locales"
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-session/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-security/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-jsonp/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-onerror/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-i18n/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-watcher/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-schedule/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-development/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-static/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-view/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-sequelize/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,8 +117,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -144,7 +144,7 @@
         ".txt"
       ],
       "whitelist": null,
-      "tmpdir": "/var/folders/gp/74xz_g8x7mz2h9lb_zpkgyfw0000gn/T/egg-multipart-tmp/wlbz",
+      "tmpdir": "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -167,34 +167,37 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/kuban/Desktop/InterviewQuestionManage/app/public",
+      "dir": "/Users/wson/Desktop/InterviewQuestionManage/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/kuban/Desktop/InterviewQuestionManage/app/view",
+      "root": "/Users/wson/Desktop/InterviewQuestionManage/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
-    "mongoose": {
-      "url": "mongodb://127.0.0.1:27017/interview",
-      "options": {
-        "useNewUrlParser": true
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "interview",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 6>",
+      "dialectOptions": {
+        "dateStrings": true,
+        "typeCast": "<Function typeCast>"
       },
-      "plugins": [],
-      "loadModel": true,
-      "app": true,
-      "agent": false,
-      "client": {
-        "url": "mongodb://127.0.0.1:27017/interview",
-        "options": {
-          "useNewUrlParser": true
-        }
-      }
+      "define": {
+        "timestamps": false,
+        "paranoid": true,
+        "freezeTableName": true,
+        "underscored": false
+      },
+      "timezone": "+8:00"
     },
     "env": "local",
     "name": "wlbz",
@@ -215,21 +218,24 @@
       },
       "dependencies": {
         "await-stream-ready": "^1.0.1",
-        "dayjs": "^1.8.34",
         "egg": "^2.15.1",
         "egg-mongoose": "^3.2.0",
         "egg-scripts": "^2.11.0",
+        "egg-sequelize": "^6.0.0",
+        "mysql2": "^2.2.5",
         "stream-wormhole": "^1.1.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
         "autod-egg": "^1.1.0",
+        "dayjs": "^1.9.6",
         "egg-bin": "^4.11.0",
         "egg-ci": "^1.11.0",
         "egg-mock": "^3.21.0",
         "eslint": "^5.13.0",
         "eslint-config-egg": "^7.1.0",
         "jsonwebtoken": "^8.5.1",
+        "sequelize-cli": "^6.2.0",
         "utility": "^1.16.1"
       },
       "engines": {
@@ -257,9 +263,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/kuban/Desktop/InterviewQuestionManage",
-    "HOME": "/Users/kuban",
-    "rundir": "/Users/kuban/Desktop/InterviewQuestionManage/run",
+    "baseDir": "/Users/wson/Desktop/InterviewQuestionManage",
+    "HOME": "/Users/wson",
+    "rundir": "/Users/wson/Desktop/InterviewQuestionManage/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -291,7 +297,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/kuban/Desktop/InterviewQuestionManage/logs/wlbz",
+      "dir": "/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -390,8 +396,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-session",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -403,8 +409,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-security",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -416,8 +422,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-jsonp",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -429,8 +435,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-onerror",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -440,8 +446,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-i18n",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -451,8 +457,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-watcher",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -462,8 +468,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-schedule",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -475,8 +481,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-multipart",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart",
       "version": "2.9.1"
     },
     "development": {
@@ -490,8 +496,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-development",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -503,8 +509,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-logrotator",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -514,8 +520,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-static",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -525,20 +531,20 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-view",
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-view",
       "version": "2.1.2"
     },
-    "mongoose": {
+    "sequelize": {
       "enable": true,
-      "package": "egg-mongoose",
-      "name": "mongoose",
+      "package": "egg-sequelize",
+      "name": "sequelize",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kuban/Desktop/InterviewQuestionManage/config/plugin.js",
-      "path": "/Users/kuban/Desktop/InterviewQuestionManage/node_modules/egg-mongoose",
-      "version": "3.2.0"
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-sequelize",
+      "version": "6.0.0"
     }
   }
 }

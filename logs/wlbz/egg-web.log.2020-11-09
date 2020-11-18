@@ -1,0 +1,22 @@
+2020-11-09 00:13:41,117 INFO 1358 [egg-logrotator] app logger reload: got log-reload message
+2020-11-09 02:14:32,244 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-09 02:14:32,245 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-09 04:15:23,991 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-09 04:15:23,991 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-09 06:16:15,744 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-09 06:16:15,746 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-09 06:16:15,750 INFO 1358 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
+2020-11-09 06:16:15,760 INFO 1358 [-/127.0.0.1/-/12ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-11-09 08:17:07,520 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-09 08:17:07,521 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-09 09:00:01,284 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-09 09:00:01,285 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-09 14:01:32,803 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-09 14:01:32,825 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-09 18:55:44,673 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-09 18:55:44,676 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-10 00:12:00,799 WARN 1358 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-10 00:12:00,800 WARN 1358 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-10 00:12:00,851 INFO 1358 [egg-logrotator] clean all log before 31 days
+2020-11-10 00:12:00,853 INFO 1358 [egg-logrotator] broadcast log-reload
+2020-11-10 00:12:00,853 INFO 1358 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-11-09","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-11-09","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-11-09","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-11-09","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-11-09"]

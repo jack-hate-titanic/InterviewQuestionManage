@@ -36,10 +36,34 @@ module.exports = (appInfo) => {
     ignore: ["/regist", "/login"], // 哪些请求不需要认证
   };
 
-  config.mongoose = {
-    url: "mongodb://127.0.0.1:27017/interview",
-    //链接到本地的MongoDB，mongoTest是我本地数据库的名字，根据自己数据库名字进行填写即可
-    options: {},
+  config.sequelize = {
+    dialect: "mysql",
+    dialectOptions: {
+      charset: "utf8mb4",
+    },
+    host: "127.0.0.1",
+    port: 3306,
+    database: "interview",
+    username: "root", // 数据库用户名
+    password: "123456", // 数据库密码
+    define: {
+      // model的全局配置
+      timestamps: false, // 添加create,update,delete时间戳
+      paranoid: true, // 添加软删除
+      freezeTableName: true, // 防止修改表名为复数
+      underscored: false, // 防止驼峰式字段被默认转为下划线
+    },
+    timezone: "+8:00", // 由于orm用的UTC时间，这里必须加上东八区，否则取出来的时间相差8小时
+    dialectOptions: {
+      // 让读取date类型数据时返回字符串而不是UTC时间
+      dateStrings: true,
+      typeCast(field, next) {
+        if (field.type === "DATETIME") {
+          return field.string();
+        }
+        return next();
+      },
+    },
   };
 
   config.multipart = {

@@ -1,0 +1,11 @@
+2020-11-18 22:32:05: 2020-11-18 22:32:05,156 INFO 25891 [master] node version v14.13.0
+2020-11-18 22:32:05: 2020-11-18 22:32:05,158 INFO 25891 [master] egg version 2.25.0
+2020-11-18 22:32:06: 2020-11-18 22:32:06,183 INFO 25891 [master] agent_worker#1:25908 started (1021ms)
+2020-11-18 22:36:20: 2020-11-18 22:36:20,631 INFO 25891 [master] receive signal SIGINT, closing
+2020-11-18 22:36:20: 2020-11-18 22:36:20,632 INFO 25891 [master] send kill SIGTERM to app workers, will exit with code:0 after 5000ms
+2020-11-18 22:36:20: 2020-11-18 22:36:20,632 INFO 25891 [master] wait 5000ms
+2020-11-18 22:36:20: 2020-11-18 22:36:20,634 INFO 25891 [master] send kill SIGTERM to agent worker, will exit with code:0 after 5000ms
+2020-11-18 22:36:20: 2020-11-18 22:36:20,634 INFO 25891 [master] wait 5000ms
+2020-11-18 22:39:15: 2020-11-18 22:39:15,991 INFO 26476 [master] node version v14.13.0
+2020-11-18 22:39:15: 2020-11-18 22:39:15,992 INFO 26476 [master] egg version 2.25.0
+2020-11-18 22:39:16: 2020-11-18 22:39:16,861 INFO 26476 [master] agent_worker#1:26494 started (865ms)

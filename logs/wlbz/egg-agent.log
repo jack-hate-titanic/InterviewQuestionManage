@@ -1,31 +1,52 @@
-2020-10-05 08:56:03,539 INFO 78773 [egg-logrotator] agent logger reload: got log-reload message
-2020-10-05 15:36:31,105 ERROR 78773 nodejs.ClusterClientNoResponseError: client no response in 6472618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 78773
-hostname: senge.local
-
-2020-10-06 05:32:27,732 ERROR 78773 nodejs.ClusterClientNoResponseError: client no response in 43275189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 78773
-hostname: senge.local
-
-2020-10-06 10:35:01,374 ERROR 78773 nodejs.ClusterClientNoResponseError: client no response in 18153640ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/kuban/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 78773
-hostname: senge.local
-
+2020-11-17 23:59:59,821 INFO 41347 [egg-logrotator] agent logger reload: got log-reload message
+2020-11-18 22:32:06,180 INFO 25908 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-11-18 22:32:06,188 INFO 25908 [egg-sequelize](8ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-11-18 22:32:06,195 INFO 25908 [egg-sequelize](6ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
+2020-11-18 22:32:06,199 INFO 25908 [egg-sequelize](8ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
+2020-11-18 22:32:06,212 INFO 25908 [egg-sequelize](12ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
+2020-11-18 22:32:06,223 INFO 25908 [egg-sequelize](9ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
+2020-11-18 22:32:06,225 INFO 25908 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `js`
+2020-11-18 22:32:05,714 INFO 25908 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-18 22:32:06,084 INFO 25908 [egg:core] dump config after load, 7ms
+2020-11-18 22:32:06,131 INFO 25908 [egg-watcher] Start watching: ["/Users/wson/Desktop/InterviewQuestionManage/app","/Users/wson/Desktop/InterviewQuestionManage/config","/Users/wson/Desktop/InterviewQuestionManage/mocks","/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy","/Users/wson/Desktop/InterviewQuestionManage/app.js"]
+2020-11-18 22:32:06,131 INFO 25908 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app"
+2020-11-18 22:32:06,131 INFO 25908 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/config"
+2020-11-18 22:32:06,132 INFO 25908 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks"
+2020-11-18 22:32:06,132 INFO 25908 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-11-18 22:32:06,132 INFO 25908 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app.js"
+2020-11-18 22:32:06,132 INFO 25908 [egg-watcher:agent] watcher start success
+2020-11-18 22:32:06,187 INFO 25908 [egg:core] dump config after ready, 5ms
+2020-11-18 22:36:32,238 INFO 26294 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-11-18 22:36:32,239 INFO 26294 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-11-18 22:36:32,247 INFO 26294 [egg-sequelize](7ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
+2020-11-18 22:36:32,248 INFO 26294 [egg-sequelize](8ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
+2020-11-18 22:36:32,260 INFO 26294 [egg-sequelize](11ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
+2020-11-18 22:36:32,274 INFO 26294 [egg-sequelize](13ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
+2020-11-18 22:36:32,279 INFO 26294 [egg-sequelize](5ms) Executed (default): SHOW INDEX FROM `js`
+2020-11-18 22:36:31,798 INFO 26294 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-18 22:36:32,138 INFO 26294 [egg:core] dump config after load, 3ms
+2020-11-18 22:36:32,188 INFO 26294 [egg-watcher] Start watching: ["/Users/wson/Desktop/InterviewQuestionManage/app","/Users/wson/Desktop/InterviewQuestionManage/config","/Users/wson/Desktop/InterviewQuestionManage/mocks","/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy","/Users/wson/Desktop/InterviewQuestionManage/app.js"]
+2020-11-18 22:36:32,188 INFO 26294 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app"
+2020-11-18 22:36:32,188 INFO 26294 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/config"
+2020-11-18 22:36:32,188 INFO 26294 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks"
+2020-11-18 22:36:32,188 INFO 26294 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-11-18 22:36:32,188 INFO 26294 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app.js"
+2020-11-18 22:36:32,188 INFO 26294 [egg-watcher:agent] watcher start success
+2020-11-18 22:36:32,245 INFO 26294 [egg:core] dump config after ready, 4ms
+2020-11-18 22:39:16,858 INFO 26494 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-11-18 22:39:16,859 INFO 26494 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-11-18 22:39:16,865 INFO 26494 [egg-sequelize](6ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
+2020-11-18 22:39:16,866 INFO 26494 [egg-sequelize](7ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
+2020-11-18 22:39:16,879 INFO 26494 [egg-sequelize](12ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
+2020-11-18 22:39:16,891 INFO 26494 [egg-sequelize](11ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
+2020-11-18 22:39:16,893 INFO 26494 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `js`
+2020-11-18 22:39:16,484 INFO 26494 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-18 22:39:16,777 INFO 26494 [egg:core] dump config after load, 3ms
+2020-11-18 22:39:16,822 INFO 26494 [egg-watcher] Start watching: ["/Users/wson/Desktop/InterviewQuestionManage/app","/Users/wson/Desktop/InterviewQuestionManage/config","/Users/wson/Desktop/InterviewQuestionManage/mocks","/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy","/Users/wson/Desktop/InterviewQuestionManage/app.js"]
+2020-11-18 22:39:16,822 INFO 26494 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app"
+2020-11-18 22:39:16,822 INFO 26494 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/config"
+2020-11-18 22:39:16,822 INFO 26494 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks"
+2020-11-18 22:39:16,822 INFO 26494 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-11-18 22:39:16,822 INFO 26494 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app.js"
+2020-11-18 22:39:16,823 INFO 26494 [egg-watcher:agent] watcher start success
+2020-11-18 22:39:16,864 INFO 26494 [egg:core] dump config after ready, 4ms

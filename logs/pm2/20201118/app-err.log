@@ -1,0 +1,11 @@
+2020-11-18 22:36:20: 2020-11-18 22:36:20,634 ERROR 25891 [master] app workers exit error:  TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:399:20
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:65:19)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:50:10)
+    at Master.killAppWorkers (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:398:12)
+    at Master._doClose (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:686:18)
+    at _doClose.next (<anonymous>)

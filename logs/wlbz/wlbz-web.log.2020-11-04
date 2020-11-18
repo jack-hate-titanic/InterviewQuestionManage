@@ -1,0 +1,1 @@
+2020-11-04 08:40:24,730 INFO 13150 [egg-sequelize](8ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;

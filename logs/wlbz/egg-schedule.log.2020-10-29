@@ -1,0 +1,33 @@
+2020-10-29 05:34:11,413 INFO 855 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 82548601ms at 2020-10-30 04:30:00.014
+2020-10-29 05:34:11,409 INFO 1276 [Job#1603920851399249694584653601] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-10-29 05:34:11,425 INFO 1276 [Job#1603920851399249694584653601] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 16ms
+2020-10-29 08:53:07,824 INFO 1788 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-29 08:53:07,824 INFO 1788 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-29 08:53:07,824 INFO 1788 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-29 08:53:41,863 INFO 1813 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-29 08:53:41,863 INFO 1813 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-29 08:53:41,863 INFO 1813 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-29 08:57:13,366 INFO 1848 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-29 08:57:13,366 INFO 1848 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-29 08:57:13,366 INFO 1848 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-29 09:02:29,587 INFO 1904 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-29 09:02:29,587 INFO 1904 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-29 09:02:29,587 INFO 1904 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-29 09:03:02,534 INFO 1947 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-29 09:03:02,534 INFO 1947 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-29 09:03:02,534 INFO 1947 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-29 09:03:02,783 INFO 1942 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 70017220ms at 2020-10-30 04:30:00.003
+2020-10-29 09:03:02,783 INFO 1942 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 53817217ms at 2020-10-30 00:00:00.000
+2020-10-29 09:03:02,784 INFO 1942 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 53818217ms at 2020-10-30 00:00:01.001
+2020-10-29 21:56:02,713 INFO 28269 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23637290ms at 2020-10-30 04:30:00.003
+2020-10-29 21:56:02,713 INFO 28269 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7437287ms at 2020-10-30 00:00:00.000
+2020-10-29 21:56:02,714 INFO 28269 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7438287ms at 2020-10-30 00:00:01.001
+2020-10-29 21:56:02,337 INFO 28283 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-10-29 21:56:02,337 INFO 28283 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-10-29 21:56:02,337 INFO 28283 [egg-schedule]: register schedule /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-10-29 23:59:59,912 INFO 28269 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400096ms at 2020-10-31 00:00:00.008
+2020-10-29 23:59:59,915 INFO 28283 [Job#1603987199900913195120162071] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-10-29 23:59:59,931 INFO 28283 [Job#1603987199900913195120162071] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 13ms
+2020-10-30 00:00:00,890 INFO 28283 [Job#1603987200889913205006009511] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-10-30 00:00:00,896 INFO 28283 [Job#1603987200889913205006009511] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms
+2020-10-30 00:00:00,892 INFO 28269 [Timer] /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400110ms at 2020-10-31 00:00:01.002

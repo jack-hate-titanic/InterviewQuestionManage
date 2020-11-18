@@ -1,0 +1,14 @@
+2020-11-02 00:00:00,108 INFO 13150 [egg-logrotator] app logger reload: got log-reload message
+2020-11-02 04:29:58,784 INFO 13150 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
+2020-11-02 04:29:58,786 INFO 13150 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-11-02 14:22:09,204 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-02 14:22:09,210 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-02 20:42:40,924 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-02 20:42:40,925 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-02 23:09:32,949 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-02 23:09:32,953 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 00:19:49,298 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 00:19:49,300 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 00:19:49,338 INFO 13150 [egg-logrotator] clean all log before 31 days
+2020-11-03 00:19:49,340 INFO 13150 [egg-logrotator] broadcast log-reload
+2020-11-03 00:19:49,340 INFO 13150 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-11-02","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-11-02","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-11-02","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-11-02","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-11-02"]

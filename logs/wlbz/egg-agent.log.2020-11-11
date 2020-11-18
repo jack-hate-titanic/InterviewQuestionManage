@@ -1,0 +1,155 @@
+2020-11-10 00:12:00,860 INFO 1353 [egg-logrotator] agent logger reload: got log-reload message
+2020-11-10 02:12:59,786 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 7206884ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-10 04:13:54,185 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 7207229ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-10 06:14:47,282 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 7206698ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-10 08:00:01,699 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 6186901ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-10 09:14:02,435 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 2137251ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-10 09:31:10,228 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 986187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-10 12:02:36,571 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 2344601ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-10 13:08:59,222 ERROR 1353 nodejs.ClusterClientNoResponseError: client no response in 3937992ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1353
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 10:44:40,110 INFO 56752 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-11-11 10:44:40,118 INFO 56752 [egg-sequelize](6ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-11-11 10:44:40,127 INFO 56752 [egg-sequelize](7ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
+2020-11-11 10:44:40,128 INFO 56752 [egg-sequelize](8ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
+2020-11-11 10:44:40,159 INFO 56752 [egg-sequelize](30ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
+2020-11-11 10:44:40,187 INFO 56752 [egg-sequelize](27ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
+2020-11-11 10:44:40,192 INFO 56752 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `js`
+2020-11-11 10:44:39,685 INFO 56752 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-11 10:44:40,005 INFO 56752 [egg:core] dump config after load, 5ms
+2020-11-11 10:44:40,063 INFO 56752 [egg-watcher] Start watching: ["/Users/wson/Desktop/InterviewQuestionManage/app","/Users/wson/Desktop/InterviewQuestionManage/config","/Users/wson/Desktop/InterviewQuestionManage/mocks","/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy","/Users/wson/Desktop/InterviewQuestionManage/app.js"]
+2020-11-11 10:44:40,063 INFO 56752 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app"
+2020-11-11 10:44:40,063 INFO 56752 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/config"
+2020-11-11 10:44:40,063 INFO 56752 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks"
+2020-11-11 10:44:40,063 INFO 56752 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy"
+2020-11-11 10:44:40,063 INFO 56752 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app.js"
+2020-11-11 10:44:40,063 INFO 56752 [egg-watcher:agent] watcher start success
+2020-11-11 10:44:40,118 INFO 56752 [egg:core] dump config after ready, 5ms
+2020-11-11 10:55:33,596 INFO 56752 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wson/Desktop/InterviewQuestionManage/app/public/uploads/1605063333532.png","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8029076,"size":23102,"blocks":48,"atimeMs":1605063333559.5283,"mtimeMs":1605063333534.7542,"ctimeMs":1605063333534.7542,"birthtimeMs":1605063333533.137,"atime":"2020-11-11T02:55:33.560Z","mtime":"2020-11-11T02:55:33.535Z","ctime":"2020-11-11T02:55:33.535Z","birthtime":"2020-11-11T02:55:33.533Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-11-11 11:41:41,091 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 1099521ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 11:49:01,273 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 319858ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 11:57:50,209 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 428891ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 12:31:37,090 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 1980966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 13:03:10,036 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 1845407ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 13:42:45,943 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 2188747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 13:49:08,515 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 334759ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 15:08:36,083 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 566943ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-11 18:09:25,665 ERROR 56752 nodejs.ClusterClientNoResponseError: client no response in 127874ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 56752
+hostname: sen-wangdeMacBook-Pro.local
+

@@ -1,0 +1,27 @@
+2020-11-03 00:19:49,344 INFO 13150 [egg-logrotator] app logger reload: got log-reload message
+2020-11-03 00:54:10,475 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 00:54:10,476 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 02:55:02,403 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 02:55:02,403 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 04:55:54,184 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 04:55:54,185 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 04:55:54,951 INFO 13150 [-/127.0.0.1/-/765ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
+2020-11-03 04:55:54,955 INFO 13150 [-/127.0.0.1/-/769ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-11-03 06:56:45,940 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 06:56:45,940 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 08:57:37,695 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 08:57:37,695 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 09:11:02,173 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 09:11:02,174 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 09:22:55,699 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 09:22:55,699 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 12:15:42,989 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 12:15:42,993 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 13:34:01,955 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 13:34:01,956 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 13:40:58,389 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 14:54:06,664 WARN 13150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-03 14:54:06,664 WARN 13150 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-03 23:59:58,098 INFO 13150 [egg-logrotator] clean all log before 31 days
+2020-11-03 23:59:59,051 INFO 13150 [egg-logrotator] broadcast log-reload
+2020-11-03 23:59:59,051 INFO 13150 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-11-03","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-11-03","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-11-03","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-11-03","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-11-03"]

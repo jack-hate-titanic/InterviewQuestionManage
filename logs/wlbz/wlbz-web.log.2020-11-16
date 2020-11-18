@@ -1,0 +1,15 @@
+2020-11-16 10:08:43,842 INFO 41361 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-11-16 10:08:43,844 INFO 41361 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-11-16 10:08:43,853 INFO 41361 [egg-sequelize](8ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
+2020-11-16 10:08:43,854 INFO 41361 [egg-sequelize](9ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
+2020-11-16 10:08:43,879 INFO 41361 [egg-sequelize](24ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
+2020-11-16 10:08:43,897 INFO 41361 [egg-sequelize](17ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
+2020-11-16 10:08:43,901 INFO 41361 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `js`
+2020-11-16 10:08:51,429 INFO 41361 [egg-sequelize](3ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
+2020-11-16 22:54:09,266 INFO 62206 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-11-16 22:54:09,268 INFO 62206 [egg-sequelize](4ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-11-16 22:54:09,283 INFO 62206 [egg-sequelize](14ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
+2020-11-16 22:54:09,288 INFO 62206 [egg-sequelize](18ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
+2020-11-16 22:54:09,388 INFO 62206 [egg-sequelize](97ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
+2020-11-16 22:54:09,401 INFO 62206 [egg-sequelize](12ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
+2020-11-16 22:54:09,404 INFO 62206 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `js`

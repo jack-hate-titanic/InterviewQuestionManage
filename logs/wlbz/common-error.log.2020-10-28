@@ -1,0 +1,231 @@
+2020-10-09 01:56:47,742 ERROR 3181 nodejs.ClusterClientNoResponseError: client no response in 995292ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3181
+hostname: sen-wangdembp
+
+2020-10-09 07:15:05,167 ERROR 3181 nodejs.ClusterClientNoResponseError: client no response in 19077102ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3181
+hostname: sen-wangdembp
+
+2020-10-09 07:30:39,502 ERROR 3181 nodejs.ClusterClientNoResponseError: client no response in 934326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3181
+hostname: sen-wangdembp
+
+2020-10-09 11:41:09,472 ERROR 3181 nodejs.ClusterClientNoResponseError: client no response in 15009211ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3181
+hostname: sen-wangdembp
+
+2020-10-09 20:01:40,761 ERROR 3181 nodejs.ClusterClientNoResponseError: client no response in 30011762ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3181
+hostname: sen-wangdembp
+
+2020-10-21 15:46:54,978 ERROR 2074 nodejs.ClusterClientNoResponseError: client no response in 171432ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 2074
+hostname: bogon
+
+2020-10-27 10:50:43,728 ERROR 16497 [-/127.0.0.1/-/4ms GET /api/js] nodejs.TypeError: ctx.model.Js.find is not a function
+    at JsController.index (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:8:43)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 16497
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 10:52:15,985 ERROR 16497 [-/127.0.0.1/-/0ms GET /api/js] nodejs.TypeError: ctx.model.Js.find is not a function
+    at JsController.index (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:8:43)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 16497
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 10:53:54,626 ERROR 16799 [-/127.0.0.1/-/5ms GET /api/js] nodejs.TypeError: ctx.model.Js.find is not a function
+    at JsController.index (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:8:43)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 16799
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 10:56:26,019 ERROR 16989 [-/127.0.0.1/-/4ms GET /api/js] nodejs.TypeError: Cannot read property 'find' of undefined
+    at JsController.index (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:9:8)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 16989
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 10:56:39,217 ERROR 17019 [-/127.0.0.1/-/4ms GET /api/js] nodejs.TypeError: ctx.model.Js.find is not a function
+    at JsController.index (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:8:39)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 17019
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 10:57:09,237 ERROR 17063 [-/127.0.0.1/-/4ms GET /api/js] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at JsController.index (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:9:8)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 17063
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 20:20:44,230 ERROR 40446 [-/127.0.0.1/-/2ms DELETE /api/js/undefined] nodejs.TypeError: ctx.model.Js.remove is not a function
+    at JsController.destroy (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:65:39)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 40446
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 20:20:51,637 ERROR 40446 [-/127.0.0.1/-/1ms DELETE /api/js/undefined] nodejs.TypeError: ctx.model.Js.remove is not a function
+    at JsController.destroy (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:65:39)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 40446
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 20:21:49,978 ERROR 40610 [-/127.0.0.1/-/5ms DELETE /api/js/undefined] nodejs.TypeError: ctx.model.Js.remove is not a function
+    at JsController.destroy (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:65:39)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
+
+pid: 40610
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 22:02:08,054 ERROR 40428 nodejs.ClusterClientNoResponseError: client no response in 5065547ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 40428
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 22:43:10,132 ERROR 40428 nodejs.ClusterClientNoResponseError: client no response in 2356266ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 40428
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-27 22:49:11,179 ERROR 40428 nodejs.ClusterClientNoResponseError: client no response in 309023ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 40428
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-28 23:45:26,804 ERROR 855 nodejs.ClusterClientNoResponseError: client no response in 944616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 855
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-28 23:56:37,885 ERROR 855 nodejs.ClusterClientNoResponseError: client no response in 631071ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 855
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-10-29 00:10:59,137 ERROR 855 nodejs.ClusterClientNoResponseError: client no response in 821238ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 855
+hostname: sen-wangdeMacBook-Pro.local
+

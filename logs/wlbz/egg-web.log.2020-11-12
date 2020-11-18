@@ -1,0 +1,16 @@
+2020-11-12 00:00:00,484 INFO 56756 [egg-logrotator] app logger reload: got log-reload message
+2020-11-12 04:29:59,199 INFO 56756 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
+2020-11-12 04:29:59,201 INFO 56756 [-/127.0.0.1/-/6ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-11-12 11:44:51,099 WARN 56756 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-12 11:44:51,442 WARN 56756 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-12 12:23:18,076 WARN 56756 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-12 12:23:18,431 WARN 56756 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-12 12:54:50,377 WARN 56756 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-12 12:54:50,377 WARN 56756 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-12 13:11:07,832 WARN 56756 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-12 13:11:07,834 WARN 56756 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-12 13:43:06,372 WARN 56756 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-12 13:43:06,372 WARN 56756 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-12 23:59:58,945 INFO 56756 [egg-logrotator] clean all log before 31 days
+2020-11-12 23:59:59,910 INFO 56756 [egg-logrotator] broadcast log-reload
+2020-11-12 23:59:59,910 INFO 56756 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/common-error.log.2020-11-12","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/wlbz-web.log.2020-11-12","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-web.log.2020-11-12","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-schedule.log.2020-11-12","/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log -> /Users/wson/Desktop/InterviewQuestionManage/logs/wlbz/egg-agent.log.2020-11-12"]

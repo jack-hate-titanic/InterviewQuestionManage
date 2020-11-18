@@ -1,0 +1,16 @@
+2020-11-10 08:27:42,482 INFO 1358 [egg-sequelize](2ms) Executed (default): UPDATE `js` SET `title`=?,`analysis`=? WHERE `id` = ?
+2020-11-10 08:27:42,510 INFO 1358 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
+2020-11-11 10:44:41,184 INFO 56756 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-11-11 10:44:41,186 INFO 56756 [egg-sequelize](2ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2020-11-11 10:44:41,195 INFO 56756 [egg-sequelize](8ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
+2020-11-11 10:44:41,196 INFO 56756 [egg-sequelize](9ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
+2020-11-11 10:44:41,218 INFO 56756 [egg-sequelize](21ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
+2020-11-11 10:44:41,230 INFO 56756 [egg-sequelize](10ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
+2020-11-11 10:44:41,232 INFO 56756 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `js`
+2020-11-11 10:44:45,395 INFO 56756 [egg-sequelize](2ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
+2020-11-11 10:47:48,487 INFO 56756 [egg-sequelize](10ms) Executed (default): INSERT INTO `js` (`id`,`title`,`analysis`) VALUES (DEFAULT,?,?);
+2020-11-11 10:47:48,529 INFO 56756 [egg-sequelize](2ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
+2020-11-11 10:50:12,124 INFO 56756 [egg-sequelize](4ms) Executed (default): UPDATE `js` SET `title`=?,`analysis`=? WHERE `id` = ?
+2020-11-11 10:50:12,150 INFO 56756 [egg-sequelize](3ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
+2020-11-11 10:55:41,771 INFO 56756 [egg-sequelize](3ms) Executed (default): UPDATE `js` SET `title`=?,`analysis`=? WHERE `id` = ?
+2020-11-11 10:55:41,796 INFO 56756 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;

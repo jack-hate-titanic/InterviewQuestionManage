@@ -1,0 +1,32 @@
+2020-11-17 16:17:30,837 ERROR 41347 nodejs.ClusterClientNoResponseError: client no response in 225874ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41347
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-17 17:54:59,611 ERROR 41347 nodejs.ClusterClientNoResponseError: client no response in 427286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41347
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-17 22:56:13,575 ERROR 41347 nodejs.ClusterClientNoResponseError: client no response in 2230354ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41347
+hostname: sen-wangdeMacBook-Pro.local
+
+2020-11-17 23:06:28,087 ERROR 41347 nodejs.ClusterClientNoResponseError: client no response in 528255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 41347
+hostname: sen-wangdeMacBook-Pro.local
+
