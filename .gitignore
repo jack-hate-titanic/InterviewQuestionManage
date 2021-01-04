@@ -4,3 +4,8 @@
 /.idea
 /.history
 /node_modules
+/logs
+/run
+
+/secret.js
+

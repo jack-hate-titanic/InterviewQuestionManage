@@ -9,3 +9,36 @@
     at Master.killAppWorkers (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:398:12)
     at Master._doClose (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:686:18)
     at _doClose.next (<anonymous>)
+2020-11-18 22:41:01: 2020-11-18 22:41:01,828 ERROR 26476 [master] app workers exit error:  TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:399:20
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:65:19)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:50:10)
+    at Master.killAppWorkers (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:398:12)
+    at Master._doClose (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:686:18)
+    at _doClose.next (<anonymous>)
+2020-11-18 22:42:13: 2020-11-18 22:42:13,221 ERROR 27550 [master] app workers exit error:  TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:399:20
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:65:19)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:50:10)
+    at Master.killAppWorkers (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:398:12)
+    at Master._doClose (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:686:18)
+    at _doClose.next (<anonymous>)
+2020-11-19 08:57:47: 2020-11-19 08:57:47,746 ERROR 27675 [master] app workers exit error:  TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:399:20
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:65:19)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/wson/Desktop/InterviewQuestionManage/node_modules/co/index.js:50:10)
+    at Master.killAppWorkers (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:398:12)
+    at Master._doClose (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-cluster/lib/master.js:686:18)
+    at _doClose.next (<anonymous>)

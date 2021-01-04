@@ -9,3 +9,25 @@
 2020-11-18 22:39:15: 2020-11-18 22:39:15,991 INFO 26476 [master] node version v14.13.0
 2020-11-18 22:39:15: 2020-11-18 22:39:15,992 INFO 26476 [master] egg version 2.25.0
 2020-11-18 22:39:16: 2020-11-18 22:39:16,861 INFO 26476 [master] agent_worker#1:26494 started (865ms)
+2020-11-18 22:41:01: 2020-11-18 22:41:01,826 INFO 26476 [master] receive signal SIGINT, closing
+2020-11-18 22:41:01: 2020-11-18 22:41:01,827 INFO 26476 [master] send kill SIGTERM to app workers, will exit with code:0 after 5000ms
+2020-11-18 22:41:01: 2020-11-18 22:41:01,827 INFO 26476 [master] wait 5000ms
+2020-11-18 22:41:01: 2020-11-18 22:41:01,829 INFO 26476 [master] send kill SIGTERM to agent worker, will exit with code:0 after 5000ms
+2020-11-18 22:41:01: 2020-11-18 22:41:01,829 INFO 26476 [master] wait 5000ms
+2020-11-18 22:41:16: 2020-11-18 22:41:16,123 INFO 27550 [master] node version v14.13.0
+2020-11-18 22:41:16: 2020-11-18 22:41:16,124 INFO 27550 [master] egg version 2.25.0
+2020-11-18 22:41:17: 2020-11-18 22:41:17,176 INFO 27550 [master] agent_worker#1:27579 started (1048ms)
+2020-11-18 22:42:13: 2020-11-18 22:42:13,215 INFO 27550 [master] receive signal SIGINT, closing
+2020-11-18 22:42:13: 2020-11-18 22:42:13,217 INFO 27550 [master] send kill SIGTERM to app workers, will exit with code:0 after 5000ms
+2020-11-18 22:42:13: 2020-11-18 22:42:13,217 INFO 27550 [master] wait 5000ms
+2020-11-18 22:42:13: 2020-11-18 22:42:13,221 INFO 27550 [master] send kill SIGTERM to agent worker, will exit with code:0 after 5000ms
+2020-11-18 22:42:13: 2020-11-18 22:42:13,222 INFO 27550 [master] wait 5000ms
+2020-11-18 22:42:15: 2020-11-18 22:42:15,768 INFO 27675 [master] node version v14.13.0
+2020-11-18 22:42:15: 2020-11-18 22:42:15,770 INFO 27675 [master] egg version 2.25.0
+2020-11-18 22:42:16: 2020-11-18 22:42:16,600 INFO 27675 [master] agent_worker#1:27692 started (826ms)
+2020-11-19 08:57:47: 2020-11-19 08:57:47,738 INFO 27675 [master] receive signal SIGTERM, closing
+2020-11-19 08:57:47: 2020-11-19 08:57:47,742 INFO 27675 [master] send kill SIGTERM to app workers, will exit with code:0 after 5000ms
+2020-11-19 08:57:47: 2020-11-19 08:57:47,743 INFO 27675 [master] wait 5000ms
+2020-11-19 08:57:47: 2020-11-19 08:57:47,747 INFO 27675 [master] send kill SIGTERM to agent worker, will exit with code:0 after 5000ms
+2020-11-19 08:57:47: 2020-11-19 08:57:47,747 INFO 27675 [master] wait 5000ms
+2020-11-19 08:57:47: 2020-11-19 08:57:47,774 INFO 27675 [master] exit with code:0

@@ -1,6 +1,0 @@
-2020-11-02 09:23:56,140 INFO 13150 [egg-sequelize](6ms) Executed (default): UPDATE `js` SET `title`=?,`analysis`=? WHERE `id` = ?
-2020-11-02 09:23:56,176 INFO 13150 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
-2020-11-02 09:25:15,873 INFO 13150 [egg-sequelize](2ms) Executed (default): INSERT INTO `js` (`id`,`title`,`analysis`) VALUES (DEFAULT,?,?);
-2020-11-02 09:25:15,907 INFO 13150 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
-2020-11-02 18:08:39,450 INFO 13150 [egg-sequelize](5ms) Executed (default): UPDATE `js` SET `title`=?,`analysis`=? WHERE `id` = ?
-2020-11-02 18:08:39,487 INFO 13150 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `analysis` FROM `js` AS `js`;
