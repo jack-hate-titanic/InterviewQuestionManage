@@ -6,6 +6,7 @@ module.exports = (app) => {
   router.delete("/api/js/:id", controller.js.destroy);
   router.put("/api/js", controller.js.update);
   router.get("/api/js/:id", controller.js.show);
+
   // 类别部分
   router.get("/api/class", controller.class.index);
   router.post("/api/class", controller.class.create);

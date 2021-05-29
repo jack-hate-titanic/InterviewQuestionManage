@@ -5,7 +5,13 @@ const Controller = require("egg").Controller;
 class JsController extends Controller {
   async index() {
     const ctx = this.ctx;
-    const result = await ctx.model.Js.findAll()
+    const query = ctx.request.body;
+    console.log(query);
+    const result = await ctx.model.Js.findAndCountAll({
+      where: {
+        classId: null,
+      },
+    })
       .then((res) => {
         ctx.success("", res);
       })
@@ -56,7 +62,7 @@ class JsController extends Controller {
   async show() {
     const ctx = this.ctx;
     const id = ctx.params.id;
-    const result = await ctx.model.Js.find({ id: id })
+    const result = await ctx.model.Js.findByPk(id)
       .then((res) => {
         ctx.success("", res);
       })
