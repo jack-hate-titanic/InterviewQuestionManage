@@ -1,241 +1,98 @@
-2021-01-04 00:11:33,589 INFO 22824 [egg-logrotator] agent logger reload: got log-reload message
-2021-01-04 02:12:26,609 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7206820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 00:00:00,991 INFO 48757 [egg-logrotator] agent logger reload: got log-reload message
+2021-05-29 00:01:35,486 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:01:35,284 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":608,"blocks":8,"atimeMs":1605710475220.438,"mtimeMs":1622217695222.0205,"ctimeMs":1622217695222.0205,"birthtimeMs":1601953336505.9001,"atime":"2020-11-18T14:41:15.220Z","mtime":"2021-05-28T16:01:35.222Z","ctime":"2021-05-28T16:01:35.222Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:06:40,857 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:06:40,652 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":645,"blocks":8,"atimeMs":1622217928031.618,"mtimeMs":1622218000592.438,"ctimeMs":1622218000592.438,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:05:28.032Z","mtime":"2021-05-28T16:06:40.592Z","ctime":"2021-05-28T16:06:40.592Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:07:24,143 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:07:23,939 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":657,"blocks":8,"atimeMs":1622218001584.2832,"mtimeMs":1622218043879.2642,"ctimeMs":1622218043879.2642,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:06:41.584Z","mtime":"2021-05-28T16:07:23.879Z","ctime":"2021-05-28T16:07:23.879Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:09:42,797 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:09:42,593 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":676,"blocks":8,"atimeMs":1622218144078.9243,"mtimeMs":1622218182532.539,"ctimeMs":1622218182532.539,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:09:04.079Z","mtime":"2021-05-28T16:09:42.533Z","ctime":"2021-05-28T16:09:42.533Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:09:52,616 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:09:52,364 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":699,"blocks":8,"atimeMs":1622218185039.4275,"mtimeMs":1622218192353.7905,"ctimeMs":1622218192353.7905,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:09:45.039Z","mtime":"2021-05-28T16:09:52.354Z","ctime":"2021-05-28T16:09:52.354Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:09:52,414 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":699,"blocks":8,"atimeMs":1622218185039.4275,"mtimeMs":1622218192353.7905,"ctimeMs":1622218192353.7905,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:09:45.039Z","mtime":"2021-05-28T16:09:52.354Z","ctime":"2021-05-28T16:09:52.354Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:10:23,000 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/class.js change
+2021-05-29 00:10:22,795 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/class.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18507151,"size":535,"blocks":8,"atimeMs":1622213802368.0105,"mtimeMs":1622218222754.754,"ctimeMs":1622218222754.754,"birthtimeMs":1622213757136.9448,"atime":"2021-05-28T14:56:42.368Z","mtime":"2021-05-28T16:10:22.755Z","ctime":"2021-05-28T16:10:22.755Z","birthtime":"2021-05-28T14:55:57.137Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:10:25,564 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:10:25,358 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":699,"blocks":8,"atimeMs":1622218193628.4993,"mtimeMs":1622218225347.3657,"ctimeMs":1622218225347.3657,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:09:53.628Z","mtime":"2021-05-28T16:10:25.347Z","ctime":"2021-05-28T16:10:25.347Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:15:14,379 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/class.js change
+2021-05-29 00:15:14,175 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/class.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18507151,"size":632,"blocks":8,"atimeMs":1622218224116.529,"mtimeMs":1622218514115.01,"ctimeMs":1622218514115.01,"birthtimeMs":1622213757136.9448,"atime":"2021-05-28T16:10:24.117Z","mtime":"2021-05-28T16:15:14.115Z","ctime":"2021-05-28T16:15:14.115Z","birthtime":"2021-05-28T14:55:57.137Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:16:50,748 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/class.js change
+2021-05-29 00:16:50,543 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/class.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18507151,"size":630,"blocks":8,"atimeMs":1622218514780.2356,"mtimeMs":1622218610481.3853,"ctimeMs":1622218610481.3853,"birthtimeMs":1622213757136.9448,"atime":"2021-05-28T16:15:14.780Z","mtime":"2021-05-28T16:16:50.481Z","ctime":"2021-05-28T16:16:50.481Z","birthtime":"2021-05-28T14:55:57.137Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:17:59,249 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:17:59,045 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":745,"blocks":8,"atimeMs":1622218661475.5322,"mtimeMs":1622218678984.7632,"ctimeMs":1622218678984.7632,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:17:41.476Z","mtime":"2021-05-28T16:17:58.985Z","ctime":"2021-05-28T16:17:58.985Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:18:03,800 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:18:03,545 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":769,"blocks":8,"atimeMs":1622218681594.5142,"mtimeMs":1622218683534.5051,"ctimeMs":1622218683534.5051,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:18:01.595Z","mtime":"2021-05-28T16:18:03.535Z","ctime":"2021-05-28T16:18:03.535Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:18:03,595 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":769,"blocks":8,"atimeMs":1622218681594.5142,"mtimeMs":1622218683534.5051,"ctimeMs":1622218683534.5051,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:18:01.595Z","mtime":"2021-05-28T16:18:03.535Z","ctime":"2021-05-28T16:18:03.535Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:18:19,924 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:18:19,719 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":803,"blocks":8,"atimeMs":1622218691075.0261,"mtimeMs":1622218699657.878,"ctimeMs":1622218699657.878,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:18:11.075Z","mtime":"2021-05-28T16:18:19.658Z","ctime":"2021-05-28T16:18:19.658Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:18:54,365 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/class.js change
+2021-05-29 00:18:54,163 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/class.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18507151,"size":637,"blocks":8,"atimeMs":1622218624093.2478,"mtimeMs":1622218734102.2227,"ctimeMs":1622218734102.2227,"birthtimeMs":1622213757136.9448,"atime":"2021-05-28T16:17:04.093Z","mtime":"2021-05-28T16:18:54.102Z","ctime":"2021-05-28T16:18:54.102Z","birthtime":"2021-05-28T14:55:57.137Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:19:20,222 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/class.js change
+2021-05-29 00:19:20,019 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/class.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18507151,"size":648,"blocks":8,"atimeMs":1622218734717.5693,"mtimeMs":1622218759957.426,"ctimeMs":1622218759957.426,"birthtimeMs":1622213757136.9448,"atime":"2021-05-28T16:18:54.718Z","mtime":"2021-05-28T16:19:19.957Z","ctime":"2021-05-28T16:19:19.957Z","birthtime":"2021-05-28T14:55:57.137Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:19:33,285 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/class.js change
+2021-05-29 00:19:33,081 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/class.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18507151,"size":682,"blocks":8,"atimeMs":1622218760611.2336,"mtimeMs":1622218773071.2476,"ctimeMs":1622218773071.2476,"birthtimeMs":1622213757136.9448,"atime":"2021-05-28T16:19:20.611Z","mtime":"2021-05-28T16:19:33.071Z","ctime":"2021-05-28T16:19:33.071Z","birthtime":"2021-05-28T14:55:57.137Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:20:04,545 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/class.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18507151,"size":682,"blocks":8,"atimeMs":1622218774355.9824,"mtimeMs":1622218804484.3564,"ctimeMs":1622218804484.3564,"birthtimeMs":1622213757136.9448,"atime":"2021-05-28T16:19:34.356Z","mtime":"2021-05-28T16:20:04.484Z","ctime":"2021-05-28T16:20:04.484Z","birthtime":"2021-05-28T14:55:57.137Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:20:04,751 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/class.js change
+2021-05-29 00:22:41,010 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/model/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803632,"size":802,"blocks":8,"atimeMs":1622218701291.9556,"mtimeMs":1622218960950.6934,"ctimeMs":1622218960950.6934,"birthtimeMs":1601953336505.9001,"atime":"2021-05-28T16:18:21.292Z","mtime":"2021-05-28T16:22:40.951Z","ctime":"2021-05-28T16:22:40.951Z","birthtime":"2020-10-06T03:02:16.506Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:22:41,214 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/model/js.js change
+2021-05-29 00:25:26,273 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js change
+2021-05-29 00:25:26,071 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803621,"size":1831,"blocks":8,"atimeMs":1622218907241.2625,"mtimeMs":1622219125944.5295,"ctimeMs":1622219125944.5295,"birthtimeMs":1601953336504.404,"atime":"2021-05-28T16:21:47.241Z","mtime":"2021-05-28T16:25:25.945Z","ctime":"2021-05-28T16:25:25.945Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:25:30,506 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803621,"size":1846,"blocks":8,"atimeMs":1622219126869.3328,"mtimeMs":1622219130495.0144,"ctimeMs":1622219130495.0144,"birthtimeMs":1601953336504.404,"atime":"2021-05-28T16:25:26.869Z","mtime":"2021-05-28T16:25:30.495Z","ctime":"2021-05-28T16:25:30.495Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:25:30,710 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js change
+2021-05-29 00:25:40,627 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js change
+2021-05-29 00:25:40,374 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803621,"size":1864,"blocks":8,"atimeMs":1622219136965.076,"mtimeMs":1622219140363.4246,"ctimeMs":1622219140363.4246,"birthtimeMs":1601953336504.404,"atime":"2021-05-28T16:25:36.965Z","mtime":"2021-05-28T16:25:40.363Z","ctime":"2021-05-28T16:25:40.363Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:25:40,425 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803621,"size":1864,"blocks":8,"atimeMs":1622219136965.076,"mtimeMs":1622219140363.4246,"ctimeMs":1622219140363.4246,"birthtimeMs":1601953336504.404,"atime":"2021-05-28T16:25:36.965Z","mtime":"2021-05-28T16:25:40.363Z","ctime":"2021-05-28T16:25:40.363Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:25:57,543 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803621,"size":1864,"blocks":8,"atimeMs":1622219157448.2014,"mtimeMs":1622219157482.362,"ctimeMs":1622219157482.362,"birthtimeMs":1601953336504.404,"atime":"2021-05-28T16:25:57.448Z","mtime":"2021-05-28T16:25:57.482Z","ctime":"2021-05-28T16:25:57.482Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:25:57,748 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js change
+2021-05-29 00:27:03,556 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js change
+2021-05-29 00:27:03,351 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803621,"size":1870,"blocks":8,"atimeMs":1622219157953.6016,"mtimeMs":1622219223289.6826,"ctimeMs":1622219223289.6826,"birthtimeMs":1601953336504.404,"atime":"2021-05-28T16:25:57.954Z","mtime":"2021-05-28T16:27:03.290Z","ctime":"2021-05-28T16:27:03.290Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:27:05,720 INFO 48757 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803621,"size":1870,"blocks":8,"atimeMs":1622219225582.143,"mtimeMs":1622219225708.8384,"ctimeMs":1622219225708.8384,"birthtimeMs":1601953336504.404,"atime":"2021-05-28T16:27:05.582Z","mtime":"2021-05-28T16:27:05.709Z","ctime":"2021-05-28T16:27:05.709Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-05-29 00:27:05,921 WARN 48757 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js change
+2021-05-29 00:49:45,055 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 437460ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 04:13:21,382 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7211204ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 01:30:00,400 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 2373112ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 04:55:50,342 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 2506811ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 02:31:54,434 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 108947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 06:58:50,051 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7204740ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 03:08:49,267 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 2173888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 08:17:22,080 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 4655077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 05:15:32,105 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 1998723ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 10:17:40,674 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7218580ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 06:49:35,985 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 1925567ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 11:35:42,156 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 4681465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 12:25:25,377 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 2961479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 12:40:26,433 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 859012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 13:59:23,506 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 4717315ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 14:55:54,583 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 3320564ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 16:01:17,489 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 3882026ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 19:15:32,479 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 11654976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 19:32:12,798 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 833756ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 19:47:14,798 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 20:02:16,815 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 902003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 20:17:18,815 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 20:32:20,807 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901975ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 20:47:22,810 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901987ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:02:24,791 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:17:26,801 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:35:15,639 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 1068827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:38:51,501 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 172918ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:56:20,220 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 1000534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 22:03:36,009 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:03:35,806 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2740,"blocks":8,"atimeMs":1609686687255.2957,"mtimeMs":1609769015745.8933,"ctimeMs":1609769015745.8933,"birthtimeMs":1601953336504.292,"atime":"2021-01-03T15:11:27.255Z","mtime":"2021-01-04T14:03:35.746Z","ctime":"2021-01-04T14:03:35.746Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:03:43,087 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:03:42,882 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2748,"blocks":8,"atimeMs":1609769016741.053,"mtimeMs":1609769022871.6724,"ctimeMs":1609769022871.6724,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:03:36.741Z","mtime":"2021-01-04T14:03:42.872Z","ctime":"2021-01-04T14:03:42.872Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:03:48,138 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:03:47,934 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2758,"blocks":8,"atimeMs":1609769024150.0374,"mtimeMs":1609769027923.9548,"ctimeMs":1609769027923.9548,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:03:44.150Z","mtime":"2021-01-04T14:03:47.924Z","ctime":"2021-01-04T14:03:47.924Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:03:53,944 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:03:53,741 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2769,"blocks":8,"atimeMs":1609769029202.5427,"mtimeMs":1609769033730.1912,"ctimeMs":1609769033730.1912,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:03:49.203Z","mtime":"2021-01-04T14:03:53.730Z","ctime":"2021-01-04T14:03:53.730Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:03:59,766 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:03:59,564 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2780,"blocks":8,"atimeMs":1609769035009.3418,"mtimeMs":1609769039554.0947,"ctimeMs":1609769039554.0947,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:03:55.009Z","mtime":"2021-01-04T14:03:59.554Z","ctime":"2021-01-04T14:03:59.554Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:04:04,096 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:04:03,844 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2799,"blocks":8,"atimeMs":1609769041009.2402,"mtimeMs":1609769043833.058,"ctimeMs":1609769043833.058,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:04:01.009Z","mtime":"2021-01-04T14:04:03.833Z","ctime":"2021-01-04T14:04:03.833Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:04:03,894 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2799,"blocks":8,"atimeMs":1609769041009.2402,"mtimeMs":1609769043833.058,"ctimeMs":1609769043833.058,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:04:01.009Z","mtime":"2021-01-04T14:04:03.833Z","ctime":"2021-01-04T14:04:03.833Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:04:12,353 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:04:12,152 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2791,"blocks":8,"atimeMs":1609769047612.8125,"mtimeMs":1609769052142.0256,"ctimeMs":1609769052142.0256,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:04:07.613Z","mtime":"2021-01-04T14:04:12.142Z","ctime":"2021-01-04T14:04:12.142Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:04:20,136 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:04:19,935 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2534,"blocks":8,"atimeMs":1609769059897.1978,"mtimeMs":1609769059924.2117,"ctimeMs":1609769059924.2117,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:04:19.897Z","mtime":"2021-01-04T14:04:19.924Z","ctime":"2021-01-04T14:04:19.924Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:05:45,433 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:05:45,229 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2558,"blocks":8,"atimeMs":1609769086302.2017,"mtimeMs":1609769145166.936,"ctimeMs":1609769145166.936,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:04:46.302Z","mtime":"2021-01-04T14:05:45.167Z","ctime":"2021-01-04T14:05:45.167Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:05:58,582 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2549,"blocks":8,"atimeMs":1609769146646.691,"mtimeMs":1609769158571.2085,"ctimeMs":1609769158571.2085,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:05:46.647Z","mtime":"2021-01-04T14:05:58.571Z","ctime":"2021-01-04T14:05:58.571Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:05:58,786 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:06:38,219 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:06:38,014 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2586,"blocks":8,"atimeMs":1609769160525.0742,"mtimeMs":1609769197958.7493,"ctimeMs":1609769197958.7493,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:06:00.525Z","mtime":"2021-01-04T14:06:37.959Z","ctime":"2021-01-04T14:06:37.959Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:07:21,826 INFO 22824 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2596,"blocks":8,"atimeMs":1609769241727.4907,"mtimeMs":1609769241763.8635,"ctimeMs":1609769241763.8635,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:07:21.727Z","mtime":"2021-01-04T14:07:21.764Z","ctime":"2021-01-04T14:07:21.764Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:07:22,030 WARN 22824 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:09:32,926 INFO 24549 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-04 22:09:32,935 INFO 24549 [egg-sequelize](10ms) Executed (default): CREATE TABLE IF NOT EXISTS `js` (`id` INTEGER auto_increment , `title` VARCHAR(255) NOT NULL, `analysis` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
-2021-01-04 22:09:32,939 INFO 24549 [egg-sequelize](3ms) Executed (default): SHOW FULL COLUMNS FROM `js`;
-2021-01-04 22:09:32,940 INFO 24549 [egg-sequelize](4ms) Executed (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'js' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='interview' AND REFERENCED_TABLE_NAME IS NOT NULL;
-2021-01-04 22:09:32,965 INFO 24549 [egg-sequelize](24ms) Executed (default): ALTER TABLE `js` CHANGE `title` `title` VARCHAR(255) NOT NULL;
-2021-01-04 22:09:32,983 INFO 24549 [egg-sequelize](18ms) Executed (default): ALTER TABLE `js` CHANGE `analysis` `analysis` TEXT NOT NULL;
-2021-01-04 22:09:32,985 INFO 24549 [egg-sequelize](1ms) Executed (default): SHOW INDEX FROM `js`
-2021-01-04 22:09:32,429 INFO 24549 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-04 22:09:32,842 INFO 24549 [egg:core] dump config after load, 6ms
-2021-01-04 22:09:32,891 INFO 24549 [egg-watcher] Start watching: ["/Users/wson/Desktop/InterviewQuestionManage/app","/Users/wson/Desktop/InterviewQuestionManage/config","/Users/wson/Desktop/InterviewQuestionManage/mocks","/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy","/Users/wson/Desktop/InterviewQuestionManage/app.js"]
-2021-01-04 22:09:32,891 INFO 24549 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app"
-2021-01-04 22:09:32,891 INFO 24549 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/config"
-2021-01-04 22:09:32,891 INFO 24549 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks"
-2021-01-04 22:09:32,891 INFO 24549 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/mocks_proxy"
-2021-01-04 22:09:32,891 INFO 24549 [egg-watcher] Start watching: "/Users/wson/Desktop/InterviewQuestionManage/app.js"
-2021-01-04 22:09:32,891 INFO 24549 [egg-watcher:agent] watcher start success
-2021-01-04 22:09:32,947 INFO 24549 [egg:core] dump config after ready, 4ms
-2021-01-04 22:09:57,349 INFO 24549 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wson/Desktop/InterviewQuestionManage/app/public/uploads/1609769397287.png","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14728961,"size":1420,"blocks":8,"atimeMs":1609769397348.3398,"mtimeMs":1609769397289.104,"ctimeMs":1609769397289.104,"birthtimeMs":1609769397287.5835,"atime":"2021-01-04T14:09:57.348Z","mtime":"2021-01-04T14:09:57.289Z","ctime":"2021-01-04T14:09:57.289Z","birthtime":"2021-01-04T14:09:57.288Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:09:58,441 INFO 24549 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wson/Desktop/InterviewQuestionManage/app/public/uploads/1609769397287.png","remove":true,"isDirectory":false,"isFile":false}
-2021-01-04 22:10:29,581 INFO 24549 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803620,"size":2586,"blocks":8,"atimeMs":1609769243050.1394,"mtimeMs":1609769429469.371,"ctimeMs":1609769429469.371,"birthtimeMs":1601953336504.292,"atime":"2021-01-04T14:07:23.050Z","mtime":"2021-01-04T14:10:29.469Z","ctime":"2021-01-04T14:10:29.469Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:10:29,783 WARN 24549 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/file.js change
-2021-01-04 22:10:34,732 INFO 24549 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wson/Desktop/InterviewQuestionManage/app/public/uploads/1609769434720.png","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":14729055,"size":1420,"blocks":8,"atimeMs":1609769434721.1663,"mtimeMs":1609769434726.5537,"ctimeMs":1609769434726.5537,"birthtimeMs":1609769434721.1663,"atime":"2021-01-04T14:10:34.721Z","mtime":"2021-01-04T14:10:34.727Z","ctime":"2021-01-04T14:10:34.727Z","birthtime":"2021-01-04T14:10:34.721Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-04 22:10:34,843 INFO 24549 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wson/Desktop/InterviewQuestionManage/app/public/uploads/1609769434720.png","remove":true,"isDirectory":false,"isFile":false}

@@ -1,192 +1,243 @@
-2021-01-04 02:12:26,609 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7206820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:10:24,895 ERROR 51010 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51010
+hostname: sen-wangdeMBP
 
-2021-01-04 04:13:21,381 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7211204ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:10:26,843 ERROR 51021 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51021
+hostname: sen-wangdeMBP
 
-2021-01-04 04:55:50,341 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 2506811ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:15:15,530 ERROR 51042 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51042
+hostname: sen-wangdeMBP
 
-2021-01-04 06:58:50,050 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7204740ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:16:51,741 ERROR 51068 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51068
+hostname: sen-wangdeMBP
 
-2021-01-04 08:17:22,079 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 4655077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:18:00,455 ERROR 51094 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"
+parameters: undefined
+pid: 51094
+hostname: sen-wangdeMBP
 
-2021-01-04 10:17:40,674 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 7218580ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:18:00,477 ERROR 51094 nodejs.SequelizeDatabaseError: Cannot add foreign key constraint
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+original: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51094
+hostname: sen-wangdeMBP
 
-2021-01-04 11:35:42,156 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 4681465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:18:05,018 ERROR 51109 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"
+parameters: undefined
+pid: 51109
+hostname: sen-wangdeMBP
 
-2021-01-04 12:25:25,377 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 2961479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:18:05,051 ERROR 51109 nodejs.SequelizeDatabaseError: Cannot add foreign key constraint
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+original: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51109
+hostname: sen-wangdeMBP
 
-2021-01-04 12:40:26,433 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 859012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:19:21,661 ERROR 51156 nodejs.SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d3`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:228:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeForeignKeyConstraintError"
+parent: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d3`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d3`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+fields: ["classId"]
+table: "class"
+value: undefined
+index: "js_classId_foreign_idx"
+reltype: "child"
+pid: 51156
+hostname: sen-wangdeMBP
 
-2021-01-04 13:59:23,505 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 4717315ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:19:34,523 ERROR 51175 nodejs.SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d8`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:228:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeForeignKeyConstraintError"
+parent: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d8`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d8`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+fields: ["classId"]
+table: "class"
+value: undefined
+index: "js_classId_foreign_idx"
+reltype: "child"
+pid: 51175
+hostname: sen-wangdeMBP
 
-2021-01-04 14:55:54,583 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 3320564ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:20:05,809 ERROR 51196 nodejs.SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_de`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:228:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeForeignKeyConstraintError"
+parent: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_de`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_de`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+fields: ["classId"]
+table: "class"
+value: undefined
+index: "js_classId_foreign_idx"
+reltype: "child"
+pid: 51196
+hostname: sen-wangdeMBP
 
-2021-01-04 16:01:17,488 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 3882026ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+2021-05-29 00:26:37,168 ERROR 51345 [-/127.0.0.1/-/1ms PUT /api/js] nodejs.ReferenceError: classId is not defined
+    at JsController.update (/Users/wson/Desktop/InterviewQuestionManage/app/controller/js.js:40:64)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:45:18)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:44:32)
+    at /Users/wson/Desktop/InterviewQuestionManage/node_modules/koa-compose/index.js:36:12
 
-2021-01-04 19:15:32,479 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 11654976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 51345
+hostname: sen-wangdeMBP
 
-2021-01-04 19:32:12,798 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 833756ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 00:49:45,054 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 437460ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 19:47:14,798 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 01:30:00,400 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 2373112ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 20:02:16,815 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 902003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 02:31:54,434 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 108947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 20:17:18,815 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 03:08:49,267 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 2173888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 20:32:20,806 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901975ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 05:15:32,105 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 1998723ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 
-2021-01-04 20:47:22,810 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901987ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-29 06:49:35,985 ERROR 48757 nodejs.ClusterClientNoResponseError: client no response in 1925567ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:02:24,790 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:17:26,800 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 901994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:35:15,639 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 1068827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:38:51,500 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 172918ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
-
-2021-01-04 21:56:20,219 ERROR 22824 nodejs.ClusterClientNoResponseError: client no response in 1000534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 22824
-hostname: sen-wangdeMacBook-Pro.local
+pid: 48757
+hostname: sen-wangdeMBP
 

@@ -2,10 +2,10 @@
 
 const Controller = require("egg").Controller;
 
-class JsController extends Controller {
+class ClassController extends Controller {
   async index() {
     const ctx = this.ctx;
-    const result = await ctx.model.Js.findAll()
+    const result = await ctx.model.Class.findAll()
       .then((res) => {
         ctx.success("", res);
       })
@@ -18,11 +18,9 @@ class JsController extends Controller {
   async create() {
     const ctx = this.ctx;
     const query = ctx.request.body;
-    const { title, analysis, classId } = query;
-    const result = await ctx.model.Js.create({
-      title,
-      analysis,
-      classId,
+    const { name } = query;
+    const result = await ctx.model.Class.create({
+      name,
     })
       .then((res) => {
         ctx.success("添加成功", res);
@@ -36,8 +34,8 @@ class JsController extends Controller {
   async update() {
     const ctx = this.ctx;
     const query = ctx.request.body;
-    const result = await ctx.model.Js.update(
-      { title: query.title, analysis: query.analysis, classId: query.classId },
+    const result = await ctx.model.Class.update(
+      { class: query.class },
       {
         where: {
           id: query.id,
@@ -56,7 +54,7 @@ class JsController extends Controller {
   async show() {
     const ctx = this.ctx;
     const id = ctx.params.id;
-    const result = await ctx.model.Js.find({ id: id })
+    const result = await ctx.model.Class.find({ id: id })
       .then((res) => {
         ctx.success("", res);
       })
@@ -69,7 +67,7 @@ class JsController extends Controller {
   async destroy() {
     const ctx = this.ctx;
     const id = ctx.params.id;
-    const result = await ctx.model.Js.destroy({
+    const result = await ctx.model.Class.destroy({
       where: {
         id,
       },
@@ -84,4 +82,4 @@ class JsController extends Controller {
   }
 }
 
-module.exports = JsController;
+module.exports = ClassController;

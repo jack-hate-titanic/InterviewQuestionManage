@@ -1,76 +1,428 @@
-2021-01-04 00:11:33,588 INFO 23377 [egg-logrotator] app logger reload: got log-reload message
-2021-01-04 02:12:26,602 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 02:12:26,603 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 04:13:21,377 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 04:13:21,378 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 04:55:50,329 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 04:55:50,329 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 04:55:50,338 INFO 23377 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
-2021-01-04 04:55:51,093 INFO 23377 [-/127.0.0.1/-/757ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
-2021-01-04 06:58:50,050 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 06:58:50,050 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 08:17:22,078 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 08:17:22,079 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 10:17:40,667 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 10:17:40,667 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 11:35:42,155 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 11:35:42,155 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 12:25:25,372 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 12:25:25,372 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 12:40:26,433 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 12:40:26,433 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 13:59:23,500 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 14:55:54,583 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 14:55:54,583 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 16:01:17,482 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 16:01:17,483 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 19:15:32,473 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 19:15:32,474 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 19:32:12,794 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 19:32:12,795 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 19:47:14,790 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 19:47:14,792 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 20:02:16,808 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 20:02:16,809 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 20:17:18,807 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 20:17:18,808 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 20:32:20,805 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 20:32:20,806 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 20:47:22,804 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 20:47:22,805 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 21:02:24,787 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 21:02:24,787 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 21:17:26,795 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 21:17:26,795 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 21:35:15,632 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 21:35:15,633 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 21:38:51,496 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 21:38:51,496 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 21:56:20,214 WARN 23377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-04 21:56:20,215 WARN 23377 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-04 22:09:33,617 INFO 24558 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-01-04 22:09:33,636 INFO 24558 [egg-multipart] stream mode enable
-2021-01-04 22:09:33,870 INFO 24558 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-01-04 22:09:33,873 INFO 24558 [egg-security] use methodnoallow middleware
-2021-01-04 22:09:33,874 INFO 24558 [egg-security] use noopen middleware
-2021-01-04 22:09:33,875 INFO 24558 [egg-security] use nosniff middleware
-2021-01-04 22:09:33,875 INFO 24558 [egg-security] use xssProtection middleware
-2021-01-04 22:09:33,876 INFO 24558 [egg-security] use xframe middleware
-2021-01-04 22:09:33,877 INFO 24558 [egg-security] use dta middleware
-2021-01-04 22:09:33,877 INFO 24558 [egg-security] compose 6 middlewares into one security middleware
-2021-01-04 22:09:33,946 INFO 24558 [egg:core] dump config after load, 6ms
-2021-01-04 22:09:33,978 INFO 24558 [egg-watcher:application] watcher start success
-2021-01-04 22:09:33,996 INFO 24558 [egg:core] dump config after ready, 4ms
-2021-01-04 22:10:31,289 INFO 24591 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-01-04 22:10:31,323 INFO 24591 [egg-multipart] stream mode enable
-2021-01-04 22:10:31,767 INFO 24591 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-01-04 22:10:31,769 INFO 24591 [egg-security] use methodnoallow middleware
-2021-01-04 22:10:31,770 INFO 24591 [egg-security] use noopen middleware
-2021-01-04 22:10:31,770 INFO 24591 [egg-security] use nosniff middleware
-2021-01-04 22:10:31,771 INFO 24591 [egg-security] use xssProtection middleware
-2021-01-04 22:10:31,771 INFO 24591 [egg-security] use xframe middleware
-2021-01-04 22:10:31,772 INFO 24591 [egg-security] use dta middleware
-2021-01-04 22:10:31,772 INFO 24591 [egg-security] compose 6 middlewares into one security middleware
-2021-01-04 22:10:31,824 INFO 24591 [egg:core] dump config after load, 8ms
-2021-01-04 22:10:31,865 INFO 24591 [egg-watcher:application] watcher start success
-2021-01-04 22:10:31,884 INFO 24591 [egg:core] dump config after ready, 5ms
+2021-05-29 00:00:00,991 INFO 50152 [egg-logrotator] app logger reload: got log-reload message
+2021-05-29 00:09:44,190 INFO 50959 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:09:44,218 INFO 50959 [egg-multipart] stream mode enable
+2021-05-29 00:09:44,791 INFO 50959 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:09:44,793 INFO 50959 [egg-security] use methodnoallow middleware
+2021-05-29 00:09:44,794 INFO 50959 [egg-security] use noopen middleware
+2021-05-29 00:09:44,795 INFO 50959 [egg-security] use nosniff middleware
+2021-05-29 00:09:44,796 INFO 50959 [egg-security] use xssProtection middleware
+2021-05-29 00:09:44,797 INFO 50959 [egg-security] use xframe middleware
+2021-05-29 00:09:44,797 INFO 50959 [egg-security] use dta middleware
+2021-05-29 00:09:44,798 INFO 50959 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:09:44,877 INFO 50959 [egg:core] dump config after load, 10ms
+2021-05-29 00:09:44,929 INFO 50959 [egg-watcher:application] watcher start success
+2021-05-29 00:09:44,954 INFO 50959 [egg:core] dump config after ready, 6ms
+2021-05-29 00:09:54,004 INFO 50982 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:09:54,031 INFO 50982 [egg-multipart] stream mode enable
+2021-05-29 00:09:54,477 INFO 50982 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:09:54,479 INFO 50982 [egg-security] use methodnoallow middleware
+2021-05-29 00:09:54,479 INFO 50982 [egg-security] use noopen middleware
+2021-05-29 00:09:54,480 INFO 50982 [egg-security] use nosniff middleware
+2021-05-29 00:09:54,480 INFO 50982 [egg-security] use xssProtection middleware
+2021-05-29 00:09:54,481 INFO 50982 [egg-security] use xframe middleware
+2021-05-29 00:09:54,481 INFO 50982 [egg-security] use dta middleware
+2021-05-29 00:09:54,481 INFO 50982 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:09:54,536 INFO 50982 [egg:core] dump config after load, 7ms
+2021-05-29 00:09:54,576 INFO 50982 [egg-watcher:application] watcher start success
+2021-05-29 00:09:54,599 INFO 50982 [egg:core] dump config after ready, 6ms
+2021-05-29 00:10:24,293 INFO 51010 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:10:24,321 INFO 51010 [egg-multipart] stream mode enable
+2021-05-29 00:10:24,739 INFO 51010 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:10:24,741 INFO 51010 [egg-security] use methodnoallow middleware
+2021-05-29 00:10:24,742 INFO 51010 [egg-security] use noopen middleware
+2021-05-29 00:10:24,743 INFO 51010 [egg-security] use nosniff middleware
+2021-05-29 00:10:24,743 INFO 51010 [egg-security] use xssProtection middleware
+2021-05-29 00:10:24,744 INFO 51010 [egg-security] use xframe middleware
+2021-05-29 00:10:24,745 INFO 51010 [egg-security] use dta middleware
+2021-05-29 00:10:24,745 INFO 51010 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:10:24,802 INFO 51010 [egg:core] dump config after load, 9ms
+2021-05-29 00:10:24,852 INFO 51010 [egg-watcher:application] watcher start success
+2021-05-29 00:10:24,877 INFO 51010 [egg:core] dump config after ready, 5ms
+2021-05-29 00:10:24,896 ERROR 51010 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51010
+hostname: sen-wangdeMBP
+
+2021-05-29 00:10:26,392 INFO 51021 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:10:26,421 INFO 51021 [egg-multipart] stream mode enable
+2021-05-29 00:10:26,707 INFO 51021 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:10:26,709 INFO 51021 [egg-security] use methodnoallow middleware
+2021-05-29 00:10:26,709 INFO 51021 [egg-security] use noopen middleware
+2021-05-29 00:10:26,710 INFO 51021 [egg-security] use nosniff middleware
+2021-05-29 00:10:26,710 INFO 51021 [egg-security] use xssProtection middleware
+2021-05-29 00:10:26,710 INFO 51021 [egg-security] use xframe middleware
+2021-05-29 00:10:26,711 INFO 51021 [egg-security] use dta middleware
+2021-05-29 00:10:26,711 INFO 51021 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:10:26,756 INFO 51021 [egg:core] dump config after load, 6ms
+2021-05-29 00:10:26,799 INFO 51021 [egg-watcher:application] watcher start success
+2021-05-29 00:10:26,827 INFO 51021 [egg:core] dump config after ready, 6ms
+2021-05-29 00:10:26,844 ERROR 51021 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51021
+hostname: sen-wangdeMBP
+
+2021-05-29 00:15:15,194 INFO 51042 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:15:15,215 INFO 51042 [egg-multipart] stream mode enable
+2021-05-29 00:15:15,427 INFO 51042 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:15:15,428 INFO 51042 [egg-security] use methodnoallow middleware
+2021-05-29 00:15:15,429 INFO 51042 [egg-security] use noopen middleware
+2021-05-29 00:15:15,429 INFO 51042 [egg-security] use nosniff middleware
+2021-05-29 00:15:15,430 INFO 51042 [egg-security] use xssProtection middleware
+2021-05-29 00:15:15,430 INFO 51042 [egg-security] use xframe middleware
+2021-05-29 00:15:15,430 INFO 51042 [egg-security] use dta middleware
+2021-05-29 00:15:15,430 INFO 51042 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:15:15,463 INFO 51042 [egg:core] dump config after load, 7ms
+2021-05-29 00:15:15,497 INFO 51042 [egg-watcher:application] watcher start success
+2021-05-29 00:15:15,514 INFO 51042 [egg:core] dump config after ready, 5ms
+2021-05-29 00:15:15,530 ERROR 51042 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51042
+hostname: sen-wangdeMBP
+
+2021-05-29 00:16:51,409 INFO 51068 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:16:51,435 INFO 51068 [egg-multipart] stream mode enable
+2021-05-29 00:16:51,634 INFO 51068 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:16:51,636 INFO 51068 [egg-security] use methodnoallow middleware
+2021-05-29 00:16:51,636 INFO 51068 [egg-security] use noopen middleware
+2021-05-29 00:16:51,637 INFO 51068 [egg-security] use nosniff middleware
+2021-05-29 00:16:51,637 INFO 51068 [egg-security] use xssProtection middleware
+2021-05-29 00:16:51,637 INFO 51068 [egg-security] use xframe middleware
+2021-05-29 00:16:51,637 INFO 51068 [egg-security] use dta middleware
+2021-05-29 00:16:51,637 INFO 51068 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:16:51,670 INFO 51068 [egg:core] dump config after load, 8ms
+2021-05-29 00:16:51,705 INFO 51068 [egg-watcher:application] watcher start success
+2021-05-29 00:16:51,729 INFO 51068 [egg:core] dump config after ready, 6ms
+2021-05-29 00:16:51,741 ERROR 51068 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY, ADD CONSTRAINT `class_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `js` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51068
+hostname: sen-wangdeMBP
+
+2021-05-29 00:17:59,986 INFO 51094 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:18:00,017 INFO 51094 [egg-multipart] stream mode enable
+2021-05-29 00:18:00,321 INFO 51094 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:18:00,325 INFO 51094 [egg-security] use methodnoallow middleware
+2021-05-29 00:18:00,325 INFO 51094 [egg-security] use noopen middleware
+2021-05-29 00:18:00,326 INFO 51094 [egg-security] use nosniff middleware
+2021-05-29 00:18:00,327 INFO 51094 [egg-security] use xssProtection middleware
+2021-05-29 00:18:00,327 INFO 51094 [egg-security] use xframe middleware
+2021-05-29 00:18:00,328 INFO 51094 [egg-security] use dta middleware
+2021-05-29 00:18:00,328 INFO 51094 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:18:00,375 INFO 51094 [egg:core] dump config after load, 5ms
+2021-05-29 00:18:00,418 INFO 51094 [egg-watcher:application] watcher start success
+2021-05-29 00:18:00,442 INFO 51094 [egg:core] dump config after ready, 5ms
+2021-05-29 00:18:00,456 ERROR 51094 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"
+parameters: undefined
+pid: 51094
+hostname: sen-wangdeMBP
+
+2021-05-29 00:18:00,478 ERROR 51094 nodejs.SequelizeDatabaseError: Cannot add foreign key constraint
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+original: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51094
+hostname: sen-wangdeMBP
+
+2021-05-29 00:18:04,607 INFO 51109 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:18:04,627 INFO 51109 [egg-multipart] stream mode enable
+2021-05-29 00:18:04,854 INFO 51109 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:18:04,857 INFO 51109 [egg-security] use methodnoallow middleware
+2021-05-29 00:18:04,857 INFO 51109 [egg-security] use noopen middleware
+2021-05-29 00:18:04,858 INFO 51109 [egg-security] use nosniff middleware
+2021-05-29 00:18:04,859 INFO 51109 [egg-security] use xssProtection middleware
+2021-05-29 00:18:04,859 INFO 51109 [egg-security] use xframe middleware
+2021-05-29 00:18:04,860 INFO 51109 [egg-security] use dta middleware
+2021-05-29 00:18:04,860 INFO 51109 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:18:04,911 INFO 51109 [egg:core] dump config after load, 6ms
+2021-05-29 00:18:04,967 INFO 51109 [egg-watcher:application] watcher start success
+2021-05-29 00:18:04,989 INFO 51109 [egg:core] dump config after ready, 6ms
+2021-05-29 00:18:05,019 ERROR 51109 nodejs.SequelizeDatabaseError: Incorrect table definition; there can be only one auto column and it must be defined as a key
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+original: {"code":"ER_WRONG_AUTO_KEY","errno":1075,"sqlState":"42000","sqlMessage":"Incorrect table definition; there can be only one auto column and it must be defined as a key","sql":"ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"}
+sql: "ALTER TABLE `class` ADD `classId` INTEGER auto_increment PRIMARY KEY;"
+parameters: undefined
+pid: 51109
+hostname: sen-wangdeMBP
+
+2021-05-29 00:18:05,051 ERROR 51109 nodejs.SequelizeDatabaseError: Cannot add foreign key constraint
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+original: {"code":"ER_CANNOT_ADD_FOREIGN","errno":1215,"sqlState":"HY000","sqlMessage":"Cannot add foreign key constraint","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`classId`) ON DELETE NO ACTION ON UPDATE CASCADE;"
+parameters: undefined
+pid: 51109
+hostname: sen-wangdeMBP
+
+2021-05-29 00:19:21,235 INFO 51156 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:19:21,262 INFO 51156 [egg-multipart] stream mode enable
+2021-05-29 00:19:21,519 INFO 51156 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:19:21,521 INFO 51156 [egg-security] use methodnoallow middleware
+2021-05-29 00:19:21,521 INFO 51156 [egg-security] use noopen middleware
+2021-05-29 00:19:21,522 INFO 51156 [egg-security] use nosniff middleware
+2021-05-29 00:19:21,522 INFO 51156 [egg-security] use xssProtection middleware
+2021-05-29 00:19:21,522 INFO 51156 [egg-security] use xframe middleware
+2021-05-29 00:19:21,523 INFO 51156 [egg-security] use dta middleware
+2021-05-29 00:19:21,523 INFO 51156 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:19:21,560 INFO 51156 [egg:core] dump config after load, 7ms
+2021-05-29 00:19:21,599 INFO 51156 [egg-watcher:application] watcher start success
+2021-05-29 00:19:21,623 INFO 51156 [egg:core] dump config after ready, 5ms
+2021-05-29 00:19:21,662 ERROR 51156 nodejs.SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d3`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:228:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeForeignKeyConstraintError"
+parent: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d3`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d3`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+fields: ["classId"]
+table: "class"
+value: undefined
+index: "js_classId_foreign_idx"
+reltype: "child"
+pid: 51156
+hostname: sen-wangdeMBP
+
+2021-05-29 00:19:34,062 INFO 51175 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:19:34,091 INFO 51175 [egg-multipart] stream mode enable
+2021-05-29 00:19:34,353 INFO 51175 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:19:34,356 INFO 51175 [egg-security] use methodnoallow middleware
+2021-05-29 00:19:34,356 INFO 51175 [egg-security] use noopen middleware
+2021-05-29 00:19:34,356 INFO 51175 [egg-security] use nosniff middleware
+2021-05-29 00:19:34,357 INFO 51175 [egg-security] use xssProtection middleware
+2021-05-29 00:19:34,357 INFO 51175 [egg-security] use xframe middleware
+2021-05-29 00:19:34,358 INFO 51175 [egg-security] use dta middleware
+2021-05-29 00:19:34,358 INFO 51175 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:19:34,409 INFO 51175 [egg:core] dump config after load, 9ms
+2021-05-29 00:19:34,458 INFO 51175 [egg-watcher:application] watcher start success
+2021-05-29 00:19:34,486 INFO 51175 [egg:core] dump config after ready, 8ms
+2021-05-29 00:19:34,523 ERROR 51175 nodejs.SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d8`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:228:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeForeignKeyConstraintError"
+parent: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d8`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_d8`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+fields: ["classId"]
+table: "class"
+value: undefined
+index: "js_classId_foreign_idx"
+reltype: "child"
+pid: 51175
+hostname: sen-wangdeMBP
+
+2021-05-29 00:20:05,447 INFO 51196 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:20:05,470 INFO 51196 [egg-multipart] stream mode enable
+2021-05-29 00:20:05,682 INFO 51196 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:20:05,684 INFO 51196 [egg-security] use methodnoallow middleware
+2021-05-29 00:20:05,684 INFO 51196 [egg-security] use noopen middleware
+2021-05-29 00:20:05,684 INFO 51196 [egg-security] use nosniff middleware
+2021-05-29 00:20:05,685 INFO 51196 [egg-security] use xssProtection middleware
+2021-05-29 00:20:05,685 INFO 51196 [egg-security] use xframe middleware
+2021-05-29 00:20:05,685 INFO 51196 [egg-security] use dta middleware
+2021-05-29 00:20:05,685 INFO 51196 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:20:05,718 INFO 51196 [egg:core] dump config after load, 6ms
+2021-05-29 00:20:05,753 INFO 51196 [egg-watcher:application] watcher start success
+2021-05-29 00:20:05,775 INFO 51196 [egg:core] dump config after ready, 5ms
+2021-05-29 00:20:05,809 ERROR 51196 nodejs.SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_de`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+    at Query.formatError (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:228:16)
+    at Query.run (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.addColumn (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/dialects/abstract/query-interface.js:408:12)
+    at async Function.sync (/Users/wson/Desktop/InterviewQuestionManage/node_modules/sequelize/lib/model.js:1315:11)
+name: "SequelizeForeignKeyConstraintError"
+parent: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_de`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+original: {"code":"ER_NO_REFERENCED_ROW_2","errno":1452,"sqlState":"23000","sqlMessage":"Cannot add or update a child row: a foreign key constraint fails (`interview`.`#sql-8d_de`, CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)","sql":"ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"}
+sql: "ALTER TABLE `js` ADD `classId` INTEGER NOT NULL, ADD CONSTRAINT `js_classId_foreign_idx` FOREIGN KEY (`classId`) REFERENCES `class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;"
+parameters: undefined
+fields: ["classId"]
+table: "class"
+value: undefined
+index: "js_classId_foreign_idx"
+reltype: "child"
+pid: 51196
+hostname: sen-wangdeMBP
+
+2021-05-29 00:22:42,773 INFO 51249 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:22:42,806 INFO 51249 [egg-multipart] stream mode enable
+2021-05-29 00:22:43,307 INFO 51249 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:22:43,309 INFO 51249 [egg-security] use methodnoallow middleware
+2021-05-29 00:22:43,310 INFO 51249 [egg-security] use noopen middleware
+2021-05-29 00:22:43,311 INFO 51249 [egg-security] use nosniff middleware
+2021-05-29 00:22:43,311 INFO 51249 [egg-security] use xssProtection middleware
+2021-05-29 00:22:43,312 INFO 51249 [egg-security] use xframe middleware
+2021-05-29 00:22:43,313 INFO 51249 [egg-security] use dta middleware
+2021-05-29 00:22:43,313 INFO 51249 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:22:43,414 INFO 51249 [egg:core] dump config after load, 23ms
+2021-05-29 00:22:43,472 INFO 51249 [egg-watcher:application] watcher start success
+2021-05-29 00:22:43,498 INFO 51249 [egg:core] dump config after ready, 4ms
+2021-05-29 00:25:27,596 INFO 51296 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:25:27,627 INFO 51296 [egg-multipart] stream mode enable
+2021-05-29 00:25:28,065 INFO 51296 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:25:28,067 INFO 51296 [egg-security] use methodnoallow middleware
+2021-05-29 00:25:28,067 INFO 51296 [egg-security] use noopen middleware
+2021-05-29 00:25:28,068 INFO 51296 [egg-security] use nosniff middleware
+2021-05-29 00:25:28,069 INFO 51296 [egg-security] use xssProtection middleware
+2021-05-29 00:25:28,069 INFO 51296 [egg-security] use xframe middleware
+2021-05-29 00:25:28,070 INFO 51296 [egg-security] use dta middleware
+2021-05-29 00:25:28,070 INFO 51296 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:25:28,120 INFO 51296 [egg:core] dump config after load, 7ms
+2021-05-29 00:25:28,160 INFO 51296 [egg-watcher:application] watcher start success
+2021-05-29 00:25:28,181 INFO 51296 [egg:core] dump config after ready, 7ms
+2021-05-29 00:25:31,499 INFO 51310 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:25:31,519 INFO 51310 [egg-multipart] stream mode enable
+2021-05-29 00:25:31,706 INFO 51310 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:25:31,707 INFO 51310 [egg-security] use methodnoallow middleware
+2021-05-29 00:25:31,708 INFO 51310 [egg-security] use noopen middleware
+2021-05-29 00:25:31,708 INFO 51310 [egg-security] use nosniff middleware
+2021-05-29 00:25:31,708 INFO 51310 [egg-security] use xssProtection middleware
+2021-05-29 00:25:31,709 INFO 51310 [egg-security] use xframe middleware
+2021-05-29 00:25:31,709 INFO 51310 [egg-security] use dta middleware
+2021-05-29 00:25:31,709 INFO 51310 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:25:31,740 INFO 51310 [egg:core] dump config after load, 6ms
+2021-05-29 00:25:31,773 INFO 51310 [egg-watcher:application] watcher start success
+2021-05-29 00:25:31,793 INFO 51310 [egg:core] dump config after ready, 6ms
+2021-05-29 00:25:41,424 INFO 51328 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:25:41,444 INFO 51328 [egg-multipart] stream mode enable
+2021-05-29 00:25:41,659 INFO 51328 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:25:41,661 INFO 51328 [egg-security] use methodnoallow middleware
+2021-05-29 00:25:41,661 INFO 51328 [egg-security] use noopen middleware
+2021-05-29 00:25:41,662 INFO 51328 [egg-security] use nosniff middleware
+2021-05-29 00:25:41,663 INFO 51328 [egg-security] use xssProtection middleware
+2021-05-29 00:25:41,663 INFO 51328 [egg-security] use xframe middleware
+2021-05-29 00:25:41,664 INFO 51328 [egg-security] use dta middleware
+2021-05-29 00:25:41,664 INFO 51328 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:25:41,708 INFO 51328 [egg:core] dump config after load, 6ms
+2021-05-29 00:25:41,752 INFO 51328 [egg-watcher:application] watcher start success
+2021-05-29 00:25:41,778 INFO 51328 [egg:core] dump config after ready, 6ms
+2021-05-29 00:25:58,542 INFO 51345 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:25:58,561 INFO 51345 [egg-multipart] stream mode enable
+2021-05-29 00:25:58,773 INFO 51345 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:25:58,774 INFO 51345 [egg-security] use methodnoallow middleware
+2021-05-29 00:25:58,775 INFO 51345 [egg-security] use noopen middleware
+2021-05-29 00:25:58,775 INFO 51345 [egg-security] use nosniff middleware
+2021-05-29 00:25:58,775 INFO 51345 [egg-security] use xssProtection middleware
+2021-05-29 00:25:58,775 INFO 51345 [egg-security] use xframe middleware
+2021-05-29 00:25:58,776 INFO 51345 [egg-security] use dta middleware
+2021-05-29 00:25:58,776 INFO 51345 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:25:58,818 INFO 51345 [egg:core] dump config after load, 9ms
+2021-05-29 00:25:58,870 INFO 51345 [egg-watcher:application] watcher start success
+2021-05-29 00:25:58,911 INFO 51345 [egg:core] dump config after ready, 7ms
+2021-05-29 00:27:04,347 INFO 51362 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:27:04,370 INFO 51362 [egg-multipart] stream mode enable
+2021-05-29 00:27:04,667 INFO 51362 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:27:04,669 INFO 51362 [egg-security] use methodnoallow middleware
+2021-05-29 00:27:04,670 INFO 51362 [egg-security] use noopen middleware
+2021-05-29 00:27:04,671 INFO 51362 [egg-security] use nosniff middleware
+2021-05-29 00:27:04,671 INFO 51362 [egg-security] use xssProtection middleware
+2021-05-29 00:27:04,672 INFO 51362 [egg-security] use xframe middleware
+2021-05-29 00:27:04,672 INFO 51362 [egg-security] use dta middleware
+2021-05-29 00:27:04,673 INFO 51362 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:27:04,732 INFO 51362 [egg:core] dump config after load, 5ms
+2021-05-29 00:27:04,776 INFO 51362 [egg-watcher:application] watcher start success
+2021-05-29 00:27:04,793 INFO 51362 [egg:core] dump config after ready, 4ms
+2021-05-29 00:27:06,701 INFO 51377 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-29 00:27:06,724 INFO 51377 [egg-multipart] stream mode enable
+2021-05-29 00:27:06,981 INFO 51377 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-05-29 00:27:06,982 INFO 51377 [egg-security] use methodnoallow middleware
+2021-05-29 00:27:06,983 INFO 51377 [egg-security] use noopen middleware
+2021-05-29 00:27:06,984 INFO 51377 [egg-security] use nosniff middleware
+2021-05-29 00:27:06,984 INFO 51377 [egg-security] use xssProtection middleware
+2021-05-29 00:27:06,985 INFO 51377 [egg-security] use xframe middleware
+2021-05-29 00:27:06,985 INFO 51377 [egg-security] use dta middleware
+2021-05-29 00:27:06,985 INFO 51377 [egg-security] compose 6 middlewares into one security middleware
+2021-05-29 00:27:07,031 INFO 51377 [egg:core] dump config after load, 8ms
+2021-05-29 00:27:07,075 INFO 51377 [egg-watcher:application] watcher start success
+2021-05-29 00:27:07,094 INFO 51377 [egg:core] dump config after ready, 5ms
+2021-05-29 00:49:45,053 WARN 51377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-29 00:49:45,055 WARN 51377 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-29 01:30:00,400 WARN 51377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-29 01:30:00,400 WARN 51377 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-29 02:31:54,435 WARN 51377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-29 02:31:54,435 WARN 51377 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-29 03:08:49,264 WARN 51377 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-29 04:29:59,751 INFO 51377 [-/127.0.0.1/-/8ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
+2021-05-29 04:29:59,852 INFO 51377 [-/127.0.0.1/-/111ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-05-29 05:15:32,104 WARN 51377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-29 05:15:32,105 WARN 51377 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-29 06:49:35,984 WARN 51377 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-29 06:49:35,985 WARN 51377 [ClusterClient:Watcher] follower closed, and try to init it again

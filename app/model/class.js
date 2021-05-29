@@ -8,32 +8,23 @@ module.exports = (app) => {
   // });
 
   // return mongoose.model("js", JsSchema, "marx");
-  const Js = app.model.define("js", {
+  const Class = app.model.define("class", {
     id: {
       type: INTEGER,
       autoIncrement: true,
       primaryKey: true,
     },
-    title: {
+    name: {
       type: STRING,
       allowNull: false,
     },
-    analysis: {
-      type: TEXT,
-      allowNull: false,
-    },
-    classId: {
-      type: INTEGER,
-      allowNull: true,
-    },
   });
-
-  Js.associate = function () {
-    app.model.Js.belongsTo(app.model.Class, {
+  Class.associate = function () {
+    app.model.Class.hasMany(app.model.Js, {
       foreignKey: "classId",
       targetKey: "id",
     });
   };
-  Js.sync({ alter: true });
-  return Js;
+  Class.sync({ alter: true });
+  return Class;
 };
