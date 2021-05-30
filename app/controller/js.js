@@ -5,12 +5,9 @@ const Controller = require("egg").Controller;
 class JsController extends Controller {
   async index() {
     const ctx = this.ctx;
-    const query = ctx.request.body;
-    console.log(query);
+    const { query } = ctx;
     const result = await ctx.model.Js.findAndCountAll({
-      where: {
-        classId: null,
-      },
+      where: query,
     })
       .then((res) => {
         ctx.success("", res);

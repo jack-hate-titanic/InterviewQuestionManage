@@ -203,6 +203,7 @@
       "eslint": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "eslint-config-egg": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "jsonwebtoken": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "sequelize-cli": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "utility": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js"
     },

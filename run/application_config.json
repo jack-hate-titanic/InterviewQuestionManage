@@ -236,6 +236,7 @@
         "eslint": "^5.13.0",
         "eslint-config-egg": "^7.1.0",
         "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.21",
         "sequelize-cli": "^6.2.0",
         "utility": "^1.16.1"
       },

@@ -17,5 +17,6 @@ pm2 start server.js
 
 # 问题
 
-通过自己的 nginx 写一份备忘录
-把所有的 js 改成 question，包括数据库名称
+- 通过自己的 nginx 写一份备忘录
+- 把所有的 js 改成 question，包括数据库名称
+- 添加 jwt
