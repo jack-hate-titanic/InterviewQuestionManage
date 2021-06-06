@@ -2,20 +2,18 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportClass = require('../../../app/controller/class');
+import ExportCategory = require('../../../app/controller/category');
 import ExportFile = require('../../../app/controller/file');
-import ExportJs = require('../../../app/controller/js');
 import ExportLogin = require('../../../app/controller/login');
-import ExportMarx = require('../../../app/controller/marx');
+import ExportQuestion = require('../../../app/controller/question');
 import ExportUser = require('../../../app/controller/user');
 
 declare module 'egg' {
   interface IController {
-    class: ExportClass;
+    category: ExportCategory;
     file: ExportFile;
-    js: ExportJs;
     login: ExportLogin;
-    marx: ExportMarx;
+    question: ExportQuestion;
     user: ExportUser;
   }
 }

@@ -1,115 +1,27 @@
-2021-05-29 23:59:59,508 INFO 58918 [egg-logrotator] app logger reload: got log-reload message
-2021-05-30 10:23:02,580 WARN 58918 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-05-30 10:23:02,582 WARN 58918 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-05-30 10:23:02,602 INFO 58918 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
-2021-05-30 10:23:02,627 INFO 58918 [-/127.0.0.1/-/31ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
-2021-05-30 12:00:36,648 WARN 58918 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-05-30 12:00:36,648 WARN 58918 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-05-30 14:42:23,659 WARN 58918 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-05-30 14:42:24,036 WARN 58918 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-05-30 14:46:43,056 INFO 61604 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 14:46:43,083 INFO 61604 [egg-multipart] stream mode enable
-2021-05-30 14:46:43,562 INFO 61604 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 14:46:43,565 INFO 61604 [egg-security] use methodnoallow middleware
-2021-05-30 14:46:43,565 INFO 61604 [egg-security] use noopen middleware
-2021-05-30 14:46:43,566 INFO 61604 [egg-security] use nosniff middleware
-2021-05-30 14:46:43,567 INFO 61604 [egg-security] use xssProtection middleware
-2021-05-30 14:46:43,567 INFO 61604 [egg-security] use xframe middleware
-2021-05-30 14:46:43,568 INFO 61604 [egg-security] use dta middleware
-2021-05-30 14:46:43,568 INFO 61604 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 14:46:43,634 INFO 61604 [egg:core] dump config after load, 8ms
-2021-05-30 14:46:43,675 INFO 61604 [egg-watcher:application] watcher start success
-2021-05-30 14:46:43,702 INFO 61604 [egg:core] dump config after ready, 10ms
-2021-05-30 14:57:46,345 INFO 61760 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 14:57:46,372 INFO 61760 [egg-multipart] stream mode enable
-2021-05-30 14:57:46,831 INFO 61760 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 14:57:46,833 INFO 61760 [egg-security] use methodnoallow middleware
-2021-05-30 14:57:46,834 INFO 61760 [egg-security] use noopen middleware
-2021-05-30 14:57:46,835 INFO 61760 [egg-security] use nosniff middleware
-2021-05-30 14:57:46,835 INFO 61760 [egg-security] use xssProtection middleware
-2021-05-30 14:57:46,835 INFO 61760 [egg-security] use xframe middleware
-2021-05-30 14:57:46,836 INFO 61760 [egg-security] use dta middleware
-2021-05-30 14:57:46,836 INFO 61760 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 14:57:46,895 INFO 61760 [egg:core] dump config after load, 9ms
-2021-05-30 14:57:46,942 INFO 61760 [egg-watcher:application] watcher start success
-2021-05-30 14:57:46,967 INFO 61760 [egg:core] dump config after ready, 8ms
-2021-05-30 15:00:09,191 INFO 61864 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 15:00:09,223 INFO 61864 [egg-multipart] stream mode enable
-2021-05-30 15:00:09,502 INFO 61864 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 15:00:09,504 INFO 61864 [egg-security] use methodnoallow middleware
-2021-05-30 15:00:09,504 INFO 61864 [egg-security] use noopen middleware
-2021-05-30 15:00:09,505 INFO 61864 [egg-security] use nosniff middleware
-2021-05-30 15:00:09,505 INFO 61864 [egg-security] use xssProtection middleware
-2021-05-30 15:00:09,505 INFO 61864 [egg-security] use xframe middleware
-2021-05-30 15:00:09,506 INFO 61864 [egg-security] use dta middleware
-2021-05-30 15:00:09,506 INFO 61864 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 15:00:09,548 INFO 61864 [egg:core] dump config after load, 9ms
-2021-05-30 15:00:09,592 INFO 61864 [egg-watcher:application] watcher start success
-2021-05-30 15:00:09,620 INFO 61864 [egg:core] dump config after ready, 6ms
-2021-05-30 15:00:52,244 INFO 61894 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 15:00:52,269 INFO 61894 [egg-multipart] stream mode enable
-2021-05-30 15:00:52,520 INFO 61894 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 15:00:52,522 INFO 61894 [egg-security] use methodnoallow middleware
-2021-05-30 15:00:52,522 INFO 61894 [egg-security] use noopen middleware
-2021-05-30 15:00:52,523 INFO 61894 [egg-security] use nosniff middleware
-2021-05-30 15:00:52,523 INFO 61894 [egg-security] use xssProtection middleware
-2021-05-30 15:00:52,523 INFO 61894 [egg-security] use xframe middleware
-2021-05-30 15:00:52,524 INFO 61894 [egg-security] use dta middleware
-2021-05-30 15:00:52,524 INFO 61894 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 15:00:52,558 INFO 61894 [egg:core] dump config after load, 8ms
-2021-05-30 15:00:52,594 INFO 61894 [egg-watcher:application] watcher start success
-2021-05-30 15:00:52,617 INFO 61894 [egg:core] dump config after ready, 6ms
-2021-05-30 15:01:08,057 INFO 61914 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 15:01:08,080 INFO 61914 [egg-multipart] stream mode enable
-2021-05-30 15:01:08,297 INFO 61914 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 15:01:08,298 INFO 61914 [egg-security] use methodnoallow middleware
-2021-05-30 15:01:08,299 INFO 61914 [egg-security] use noopen middleware
-2021-05-30 15:01:08,300 INFO 61914 [egg-security] use nosniff middleware
-2021-05-30 15:01:08,300 INFO 61914 [egg-security] use xssProtection middleware
-2021-05-30 15:01:08,300 INFO 61914 [egg-security] use xframe middleware
-2021-05-30 15:01:08,301 INFO 61914 [egg-security] use dta middleware
-2021-05-30 15:01:08,301 INFO 61914 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 15:01:08,336 INFO 61914 [egg:core] dump config after load, 5ms
-2021-05-30 15:01:08,379 INFO 61914 [egg-watcher:application] watcher start success
-2021-05-30 15:01:08,407 INFO 61914 [egg:core] dump config after ready, 9ms
-2021-05-30 15:04:42,945 INFO 61974 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 15:04:42,974 INFO 61974 [egg-multipart] stream mode enable
-2021-05-30 15:04:43,466 INFO 61974 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 15:04:43,468 INFO 61974 [egg-security] use methodnoallow middleware
-2021-05-30 15:04:43,469 INFO 61974 [egg-security] use noopen middleware
-2021-05-30 15:04:43,469 INFO 61974 [egg-security] use nosniff middleware
-2021-05-30 15:04:43,470 INFO 61974 [egg-security] use xssProtection middleware
-2021-05-30 15:04:43,470 INFO 61974 [egg-security] use xframe middleware
-2021-05-30 15:04:43,471 INFO 61974 [egg-security] use dta middleware
-2021-05-30 15:04:43,471 INFO 61974 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 15:04:43,534 INFO 61974 [egg:core] dump config after load, 9ms
-2021-05-30 15:04:43,583 INFO 61974 [egg-watcher:application] watcher start success
-2021-05-30 15:04:43,605 INFO 61974 [egg:core] dump config after ready, 7ms
-2021-05-30 15:04:45,987 INFO 61984 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 15:04:46,015 INFO 61984 [egg-multipart] stream mode enable
-2021-05-30 15:04:46,261 INFO 61984 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 15:04:46,264 INFO 61984 [egg-security] use methodnoallow middleware
-2021-05-30 15:04:46,265 INFO 61984 [egg-security] use noopen middleware
-2021-05-30 15:04:46,266 INFO 61984 [egg-security] use nosniff middleware
-2021-05-30 15:04:46,267 INFO 61984 [egg-security] use xssProtection middleware
-2021-05-30 15:04:46,267 INFO 61984 [egg-security] use xframe middleware
-2021-05-30 15:04:46,268 INFO 61984 [egg-security] use dta middleware
-2021-05-30 15:04:46,268 INFO 61984 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 15:04:46,327 INFO 61984 [egg:core] dump config after load, 12ms
-2021-05-30 15:04:46,381 INFO 61984 [egg-watcher:application] watcher start success
-2021-05-30 15:04:46,421 INFO 61984 [egg:core] dump config after ready, 9ms
-2021-05-30 15:05:40,963 INFO 62002 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-05-30 15:05:40,991 INFO 62002 [egg-multipart] stream mode enable
-2021-05-30 15:05:41,437 INFO 62002 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-05-30 15:05:41,439 INFO 62002 [egg-security] use methodnoallow middleware
-2021-05-30 15:05:41,439 INFO 62002 [egg-security] use noopen middleware
-2021-05-30 15:05:41,440 INFO 62002 [egg-security] use nosniff middleware
-2021-05-30 15:05:41,441 INFO 62002 [egg-security] use xssProtection middleware
-2021-05-30 15:05:41,441 INFO 62002 [egg-security] use xframe middleware
-2021-05-30 15:05:41,442 INFO 62002 [egg-security] use dta middleware
-2021-05-30 15:05:41,442 INFO 62002 [egg-security] compose 6 middlewares into one security middleware
-2021-05-30 15:05:41,500 INFO 62002 [egg:core] dump config after load, 10ms
-2021-05-30 15:05:41,557 INFO 62002 [egg-watcher:application] watcher start success
-2021-05-30 15:05:41,593 INFO 62002 [egg:core] dump config after ready, 9ms
-2021-05-30 18:04:43,205 WARN 62002 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-05-30 18:04:43,210 WARN 62002 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-03 23:59:58,535 INFO 11883 [egg-logrotator] app logger reload: got log-reload message
+2021-06-06 21:59:51,079 INFO 1102 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-06 21:59:51,118 INFO 1102 [egg-multipart] stream mode enable
+2021-06-06 21:59:51,511 INFO 1102 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-06-06 21:59:51,514 INFO 1102 [egg-security] use methodnoallow middleware
+2021-06-06 21:59:51,515 INFO 1102 [egg-security] use noopen middleware
+2021-06-06 21:59:51,516 INFO 1102 [egg-security] use nosniff middleware
+2021-06-06 21:59:51,517 INFO 1102 [egg-security] use xssProtection middleware
+2021-06-06 21:59:51,518 INFO 1102 [egg-security] use xframe middleware
+2021-06-06 21:59:51,518 INFO 1102 [egg-security] use dta middleware
+2021-06-06 21:59:51,518 INFO 1102 [egg-security] compose 6 middlewares into one security middleware
+2021-06-06 21:59:51,597 INFO 1102 [egg:core] dump config after load, 11ms
+2021-06-06 21:59:51,661 INFO 1102 [egg-watcher:application] watcher start success
+2021-06-06 21:59:51,698 INFO 1102 [egg:core] dump config after ready, 8ms
+2021-06-06 23:13:36,854 INFO 3254 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-06 23:13:36,871 INFO 3254 [egg-multipart] stream mode enable
+2021-06-06 23:13:37,089 INFO 3254 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
+2021-06-06 23:13:37,091 INFO 3254 [egg-security] use methodnoallow middleware
+2021-06-06 23:13:37,092 INFO 3254 [egg-security] use noopen middleware
+2021-06-06 23:13:37,092 INFO 3254 [egg-security] use nosniff middleware
+2021-06-06 23:13:37,093 INFO 3254 [egg-security] use xssProtection middleware
+2021-06-06 23:13:37,093 INFO 3254 [egg-security] use xframe middleware
+2021-06-06 23:13:37,094 INFO 3254 [egg-security] use dta middleware
+2021-06-06 23:13:37,094 INFO 3254 [egg-security] compose 6 middlewares into one security middleware
+2021-06-06 23:13:37,144 INFO 3254 [egg:core] dump config after load, 5ms
+2021-06-06 23:13:37,176 INFO 3254 [egg-watcher:application] watcher start success
+2021-06-06 23:13:37,201 INFO 3254 [egg:core] dump config after ready, 8ms

@@ -2,16 +2,14 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportClass = require('../../../app/model/class');
-import ExportJs = require('../../../app/model/js');
-import ExportMarx = require('../../../app/model/marx');
+import ExportCategory = require('../../../app/model/category');
+import ExportQuestion = require('../../../app/model/question');
 import ExportUser = require('../../../app/model/user');
 
 declare module 'egg' {
   interface IModel {
-    Class: ReturnType<typeof ExportClass>;
-    Js: ReturnType<typeof ExportJs>;
-    Marx: ReturnType<typeof ExportMarx>;
+    Category: ReturnType<typeof ExportCategory>;
+    Question: ReturnType<typeof ExportQuestion>;
     User: ReturnType<typeof ExportUser>;
   }
 }

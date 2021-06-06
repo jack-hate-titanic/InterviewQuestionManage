@@ -6,8 +6,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/js",
-    "regexp": "/^\\/api\\/js(?:\\/(?=$))?$/",
+    "path": "/api/question",
+    "regexp": "/^\\/api\\/question(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -18,8 +18,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/js",
-    "regexp": "/^\\/api\\/js(?:\\/(?=$))?$/",
+    "path": "/api/question",
+    "regexp": "/^\\/api\\/question(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -41,8 +41,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/api/js/:id",
-    "regexp": "/^\\/api\\/js\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "path": "/api/question/:id",
+    "regexp": "/^\\/api\\/question\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -53,8 +53,8 @@
       "PUT"
     ],
     "paramNames": [],
-    "path": "/api/js",
-    "regexp": "/^\\/api\\/js(?:\\/(?=$))?$/",
+    "path": "/api/question",
+    "regexp": "/^\\/api\\/question(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -77,8 +77,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/api/js/:id",
-    "regexp": "/^\\/api\\/js\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "path": "/api/question/:id",
+    "regexp": "/^\\/api\\/question\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -90,8 +90,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/class",
-    "regexp": "/^\\/api\\/class(?:\\/(?=$))?$/",
+    "path": "/api/category",
+    "regexp": "/^\\/api\\/category(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -102,8 +102,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/class",
-    "regexp": "/^\\/api\\/class(?:\\/(?=$))?$/",
+    "path": "/api/category",
+    "regexp": "/^\\/api\\/category(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -125,8 +125,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/api/class/:id",
-    "regexp": "/^\\/api\\/class\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "path": "/api/category/:id",
+    "regexp": "/^\\/api\\/category\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -137,8 +137,8 @@
       "PUT"
     ],
     "paramNames": [],
-    "path": "/api/class",
-    "regexp": "/^\\/api\\/class(?:\\/(?=$))?$/",
+    "path": "/api/category",
+    "regexp": "/^\\/api\\/category(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -161,8 +161,8 @@
         "pattern": "[^\\/]+?"
       }
     ],
-    "path": "/api/class/:id",
-    "regexp": "/^\\/api\\/class\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "path": "/api/category/:id",
+    "regexp": "/^\\/api\\/category\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

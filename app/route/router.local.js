@@ -1,19 +1,19 @@
 module.exports = (app) => {
   const { router, controller } = app;
   // 试题部分
-  router.get("/api/js", controller.js.index);
-  router.post("/api/js", controller.js.create);
-  router.delete("/api/js/:id", controller.js.destroy);
-  router.put("/api/js", controller.js.update);
-  router.get("/api/js/:id", controller.js.show);
+  router.get("/api/question", controller.question.index);
+  router.post("/api/question", controller.question.create);
+  router.delete("/api/question/:id", controller.question.destroy);
+  router.put("/api/question", controller.question.update);
+  router.get("/api/question/:id", controller.question.show);
 
   // 类别部分
-  router.get("/api/class", controller.class.index);
-  router.post("/api/class", controller.class.create);
-  router.delete("/api/class/:id", controller.class.destroy);
-  router.put("/api/class", controller.class.update);
-  router.get("/api/class/:id", controller.class.show);
+  router.get("/api/category", controller.category.index);
+  router.post("/api/category", controller.category.create);
+  router.delete("/api/category/:id", controller.category.destroy);
+  router.put("/api/category", controller.category.update);
+  router.get("/api/category/:id", controller.category.show);
 
-  router.get("/api", controller.js.index);
+  router.get("/api", controller.question.index);
   router.resources("file", "/api/file", controller.file);
 };

@@ -2,10 +2,13 @@
 
 const Controller = require("egg").Controller;
 
-class ClassController extends Controller {
+class Question extends Controller {
   async index() {
     const ctx = this.ctx;
-    const result = await ctx.model.Class.findAll()
+    const { query } = ctx;
+    const result = await ctx.model.Question.findAndCountAll({
+      where: query,
+    })
       .then((res) => {
         ctx.success("", res);
       })
@@ -18,9 +21,11 @@ class ClassController extends Controller {
   async create() {
     const ctx = this.ctx;
     const query = ctx.request.body;
-    const { name } = query;
-    const result = await ctx.model.Class.create({
-      name,
+    const { title, analysis, categoryId } = query;
+    const result = await ctx.model.Question.create({
+      title,
+      analysis,
+      categoryId,
     })
       .then((res) => {
         ctx.success("添加成功", res);
@@ -34,8 +39,12 @@ class ClassController extends Controller {
   async update() {
     const ctx = this.ctx;
     const query = ctx.request.body;
-    const result = await ctx.model.Class.update(
-      { class: query.class },
+    const result = await ctx.model.Question.update(
+      {
+        title: query.title,
+        analysis: query.analysis,
+        categoryId: query.categoryId,
+      },
       {
         where: {
           id: query.id,
@@ -54,7 +63,7 @@ class ClassController extends Controller {
   async show() {
     const ctx = this.ctx;
     const id = ctx.params.id;
-    const result = await ctx.model.Class.find({ id: id })
+    const result = await ctx.model.Question.findByPk(id)
       .then((res) => {
         ctx.success("", res);
       })
@@ -67,7 +76,7 @@ class ClassController extends Controller {
   async destroy() {
     const ctx = this.ctx;
     const id = ctx.params.id;
-    const result = await ctx.model.Class.destroy({
+    const result = await ctx.model.Question.destroy({
       where: {
         id,
       },
@@ -82,4 +91,4 @@ class ClassController extends Controller {
   }
 }
 
-module.exports = ClassController;
+module.exports = Question;
