@@ -1,5 +1,7 @@
 module.exports = (app) => {
   const { router, controller } = app;
+  // 登录接口
+  router.post("/api/login", controller.login.login);
   // 试题部分
   router.get("/api/question", controller.question.index);
   router.post("/api/question", controller.question.create);

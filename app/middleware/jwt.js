@@ -5,7 +5,7 @@ module.exports = (options, app) => {
     let authToken = ctx.header.authorization; // 获取header里的authorization
     if (authToken) {
       const res = verifyToken(authToken); // 解密获取的Token
-      if (res.id) {
+      if (res.usrId) {
         await next();
       } else {
         ctx.failure("登录状态已过期");

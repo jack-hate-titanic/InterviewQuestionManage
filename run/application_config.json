@@ -105,6 +105,7 @@
         "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-static/config/locales",
         "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-view/config/locales",
         "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-sequelize/config/locales",
+        "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-jwt/config/locales",
         "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/locales",
         "/Users/wson/Desktop/InterviewQuestionManage/config/locales"
       ],
@@ -144,7 +145,7 @@
         ".txt"
       ],
       "whitelist": null,
-      "tmpdir": "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz",
+      "tmpdir": "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/questionManage",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -199,9 +200,17 @@
       },
       "timezone": "+8:00"
     },
+    "jwt": {
+      "secret": "<String len: 6>",
+      "enable": true,
+      "ignore": [
+        "/api/regist",
+        "/api/login"
+      ]
+    },
     "env": "local",
-    "name": "wlbz",
-    "keys": "<String len: 23>",
+    "name": "questionManage",
+    "keys": "<String len: 33>",
     "proxy": false,
     "maxIpsCount": 0,
     "maxProxyCount": 0,
@@ -209,7 +218,7 @@
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "wlbz",
+      "name": "questionManage",
       "version": "1.0.0",
       "description": "",
       "private": true,
@@ -232,6 +241,7 @@
         "dayjs": "^1.9.6",
         "egg-bin": "^4.11.0",
         "egg-ci": "^1.11.0",
+        "egg-jwt": "^3.1.7",
         "egg-mock": "^3.21.0",
         "eslint": "^5.13.0",
         "eslint-config-egg": "^7.1.0",
@@ -299,7 +309,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz",
+      "dir": "/Users/wson/Desktop/InterviewQuestionManage/logs/questionManage",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -307,7 +317,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "wlbz-web.log",
+      "appLogName": "questionManage-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -367,15 +377,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "jwt": {
-      "enable": true,
-      "ignore": [
-        "/regist",
-        "/login"
-      ]
-    },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
+    "appMiddlewares": [
+      "jwt"
+    ],
     "appMiddleware": "~config~appMiddlewares",
     "multipartParseOptions": {
       "autoFields": false,
@@ -547,6 +552,19 @@
       "from": "/Users/wson/Desktop/InterviewQuestionManage/config/plugin.js",
       "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-sequelize",
       "version": "6.0.0"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
+      "env": [],
+      "from": "/Users/wson/Desktop/InterviewQuestionManage/config/plugin.js",
+      "path": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-jwt",
+      "version": "3.1.7"
     }
   }
 }

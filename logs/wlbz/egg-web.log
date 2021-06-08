@@ -1,27 +1,39 @@
-2021-06-03 23:59:58,535 INFO 11883 [egg-logrotator] app logger reload: got log-reload message
-2021-06-06 21:59:51,079 INFO 1102 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-06-06 21:59:51,118 INFO 1102 [egg-multipart] stream mode enable
-2021-06-06 21:59:51,511 INFO 1102 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-06-06 21:59:51,514 INFO 1102 [egg-security] use methodnoallow middleware
-2021-06-06 21:59:51,515 INFO 1102 [egg-security] use noopen middleware
-2021-06-06 21:59:51,516 INFO 1102 [egg-security] use nosniff middleware
-2021-06-06 21:59:51,517 INFO 1102 [egg-security] use xssProtection middleware
-2021-06-06 21:59:51,518 INFO 1102 [egg-security] use xframe middleware
-2021-06-06 21:59:51,518 INFO 1102 [egg-security] use dta middleware
-2021-06-06 21:59:51,518 INFO 1102 [egg-security] compose 6 middlewares into one security middleware
-2021-06-06 21:59:51,597 INFO 1102 [egg:core] dump config after load, 11ms
-2021-06-06 21:59:51,661 INFO 1102 [egg-watcher:application] watcher start success
-2021-06-06 21:59:51,698 INFO 1102 [egg:core] dump config after ready, 8ms
-2021-06-06 23:13:36,854 INFO 3254 [egg:logger] init all loggers with options: {"dir":"/Users/wson/Desktop/InterviewQuestionManage/logs/wlbz","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"wlbz-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-06-06 23:13:36,871 INFO 3254 [egg-multipart] stream mode enable
-2021-06-06 23:13:37,089 INFO 3254 [egg-static] starting static serve /public/ -> /Users/wson/Desktop/InterviewQuestionManage/app/public
-2021-06-06 23:13:37,091 INFO 3254 [egg-security] use methodnoallow middleware
-2021-06-06 23:13:37,092 INFO 3254 [egg-security] use noopen middleware
-2021-06-06 23:13:37,092 INFO 3254 [egg-security] use nosniff middleware
-2021-06-06 23:13:37,093 INFO 3254 [egg-security] use xssProtection middleware
-2021-06-06 23:13:37,093 INFO 3254 [egg-security] use xframe middleware
-2021-06-06 23:13:37,094 INFO 3254 [egg-security] use dta middleware
-2021-06-06 23:13:37,094 INFO 3254 [egg-security] compose 6 middlewares into one security middleware
-2021-06-06 23:13:37,144 INFO 3254 [egg:core] dump config after load, 5ms
-2021-06-06 23:13:37,176 INFO 3254 [egg-watcher:application] watcher start success
-2021-06-06 23:13:37,201 INFO 3254 [egg:core] dump config after ready, 8ms
+2021-06-07 23:59:58,572 INFO 3254 [egg-logrotator] app logger reload: got log-reload message
+2021-06-08 00:35:34,510 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 00:35:34,511 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 01:15:45,205 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 02:51:32,067 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 02:51:32,068 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 04:31:22,927 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 04:31:22,927 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 04:31:22,938 INFO 3254 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/1w/tl34klcs0n940bkwc99sj3mr0000gn/T/egg-multipart-tmp/wlbz"
+2021-06-08 04:31:23,291 INFO 3254 [-/127.0.0.1/-/358ms SCHEDULE /__schedule?path=/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-06-08 10:52:46,569 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 10:52:46,570 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 12:53:00,574 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 12:53:00,574 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 14:53:15,097 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 14:53:15,097 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 16:53:32,930 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 16:53:32,930 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 17:02:12,707 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 17:02:12,707 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 19:03:34,751 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 19:03:34,751 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 19:43:05,346 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 19:43:05,346 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 19:46:03,287 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 20:01:05,396 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 20:01:05,397 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 20:16:07,397 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 20:16:07,398 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 20:31:09,395 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 20:31:09,396 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 20:46:11,392 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 20:46:11,392 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 21:01:13,395 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 21:01:13,396 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 21:16:15,397 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 21:16:15,401 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-08 21:20:10,903 WARN 3254 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-08 21:20:10,903 WARN 3254 [ClusterClient:Watcher] follower closed, and try to init it again

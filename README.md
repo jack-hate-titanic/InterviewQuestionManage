@@ -9,6 +9,8 @@ https://www.kancloud.cn/cooldrw2015/egg_api/1153840
 # model 操作
 
 https://www.yuque.com/sunluyong/node/orm
+详细
+https://itbilu.com/nodejs/npm/V1PExztfb.html
 
 # 项目启动操作
 
@@ -20,3 +22,5 @@ pm2 start server.js
 - 通过自己的 nginx 写一份备忘录
 - 把所有的 js 改成 question，包括数据库名称
 - 添加 jwt
+- 判断 category 是否重名
+- 判断 question 是否重名

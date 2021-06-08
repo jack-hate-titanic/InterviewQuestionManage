@@ -33,7 +33,8 @@ module.exports = (appInfo) => {
 
   config.jwt = {
     enable: true,
-    ignore: ["/regist", "/login"], // 哪些请求不需要认证
+    secret: "123456",
+    ignore: ["/api/regist", "/api/login"], // 哪些请求不需要认证
   };
 
   config.sequelize = {

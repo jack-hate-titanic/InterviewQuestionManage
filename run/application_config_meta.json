@@ -56,6 +56,7 @@
   "keys": "/Users/wson/Desktop/InterviewQuestionManage/config/config.default.js",
   "jwt": {
     "enable": "/Users/wson/Desktop/InterviewQuestionManage/config/config.default.js",
+    "secret": "/Users/wson/Desktop/InterviewQuestionManage/config/config.default.js",
     "ignore": "/Users/wson/Desktop/InterviewQuestionManage/config/config.default.js"
   },
   "sequelize": {
@@ -199,6 +200,7 @@
       "dayjs": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "egg-bin": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "egg-ci": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "egg-mock": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "eslint": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
       "eslint-config-egg": "/Users/wson/Desktop/InterviewQuestionManage/node_modules/egg/config/config.default.js",
