@@ -16,6 +16,5 @@ module.exports = (app) => {
   router.put("/api/category", controller.category.update);
   router.get("/api/category/:id", controller.category.show);
 
-  router.get("/api", controller.question.index);
-  router.resources("file", "/api/file", controller.file);
+  router.post("/api/file", controller.file.create);
 };

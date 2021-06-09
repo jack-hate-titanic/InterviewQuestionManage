@@ -17,10 +17,14 @@ https://itbilu.com/nodejs/npm/V1PExztfb.html
 npm run dev
 pm2 start server.js
 
+# 解决的问题
+
+- 添加 jwt
+
 # 问题
 
 - 通过自己的 nginx 写一份备忘录
 - 把所有的 js 改成 question，包括数据库名称
-- 添加 jwt
+
 - 判断 category 是否重名
 - 判断 question 是否重名

@@ -236,3 +236,182 @@ hostname: sen-wangdeMBP
 2021-06-08 23:33:25,707 INFO 3246 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/login.js","stat":{"dev":16777221,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803622,"size":1687,"blocks":8,"atimeMs":1623166397885.9568,"mtimeMs":1623166405646.633,"ctimeMs":1623166405646.633,"birthtimeMs":1601953336504.4973,"atime":"2021-06-08T15:33:17.886Z","mtime":"2021-06-08T15:33:25.647Z","ctime":"2021-06-08T15:33:25.647Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
 2021-06-08 23:33:30,763 WARN 3246 [agent:development] reload worker because /Users/wson/Desktop/InterviewQuestionManage/app/controller/login.js change
 2021-06-08 23:33:30,562 INFO 3246 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wson/Desktop/InterviewQuestionManage/app/controller/login.js","stat":{"dev":16777221,"mode":33261,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1803622,"size":1623,"blocks":8,"atimeMs":1623166408731.1675,"mtimeMs":1623166410551.4924,"ctimeMs":1623166410551.4924,"birthtimeMs":1601953336504.4973,"atime":"2021-06-08T15:33:28.731Z","mtime":"2021-06-08T15:33:30.551Z","ctime":"2021-06-08T15:33:30.551Z","birthtime":"2020-10-06T03:02:16.504Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-06-08 23:47:02,418 INFO 3246 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wson/Desktop/InterviewQuestionManage/app/public/uploads/1623167222354.jpeg","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18889194,"size":7575,"blocks":16,"atimeMs":1623167222416.0176,"mtimeMs":1623167222355.755,"ctimeMs":1623167222355.755,"birthtimeMs":1623167222354.4968,"atime":"2021-06-08T15:47:02.416Z","mtime":"2021-06-08T15:47:02.356Z","ctime":"2021-06-08T15:47:02.356Z","birthtime":"2021-06-08T15:47:02.354Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-06-08 23:47:02,698 INFO 3246 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wson/Desktop/InterviewQuestionManage/app/public/uploads/1623167222354.jpeg","remove":true,"isDirectory":false,"isFile":false}
+2021-06-08 23:59:58,750 INFO 3246 [egg-logrotator] agent logger reload: got log-reload message
+2021-06-09 00:33:03,931 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 862094ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 01:11:09,964 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 2245963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 02:34:39,850 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 2005689ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 04:14:25,715 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 2144150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 04:24:24,237 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 598516ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 04:39:26,659 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 842068ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 05:17:52,619 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 2265479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 07:53:52,745 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 5476352ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 08:27:35,840 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 1983209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 10:28:01,259 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 7203464ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 11:25:12,069 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 3430802ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 11:30:13,240 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 181218ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 11:55:42,455 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 1368514ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 12:13:05,182 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 922709ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 12:25:40,285 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 735087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 14:27:43,802 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 7203504ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 16:28:01,591 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 7217783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 18:28:15,356 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 7213758ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 20:28:31,149 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 7215785ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 20:34:37,255 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 251437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 20:45:00,890 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 583607ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
+2021-06-09 22:13:56,643 ERROR 3246 nodejs.ClusterClientNoResponseError: client no response in 1684955ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wson/Desktop/InterviewQuestionManage/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 3246
+hostname: sen-wangdeMBP
+
