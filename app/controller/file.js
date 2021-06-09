@@ -31,7 +31,7 @@ class FileController extends Controller {
     const filename =
       Date.now() + path.extname(stream.filename).toLocaleLowerCase();
     // 目标文件
-    const target = path.join("app/public/uploads", filename);
+    const target = path.join(__dirname, "../public/uploads", filename);
     //
     const writeStream = fs.createWriteStream(target);
     console.log("-----------获取表单中其它数据 start--------------");
