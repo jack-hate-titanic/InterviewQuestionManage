@@ -1,13 +1,19 @@
 "use strict";
 
 const Controller = require("egg").Controller;
+const { pickBy, identity } = require("lodash");
 
 class Question extends Controller {
   async index() {
     const ctx = this.ctx;
-    const { query } = ctx;
+    const {
+      query: { page = 1, count = 10, categoryId },
+    } = ctx;
+    const condition = { categoryId };
     const result = await ctx.model.Question.findAndCountAll({
-      where: query,
+      where: pickBy(condition, identity),
+      limit: count,
+      offset: (page - 1) * count,
     })
       .then((res) => {
         ctx.success("", res);
