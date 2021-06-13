@@ -18,13 +18,15 @@ const options = {
   scope: bucket,
 };
 const putPolicy = new qiniu.rs.PutPolicy(options);
-const uploadToken = putPolicy.uploadToken(mac);
+
 let config = new qiniu.conf.Config();
 config.zone = qiniu.zone.Zone_z0;
 const Controller = require("egg").Controller;
 
 class FileController extends Controller {
   async create() {
+    // 每次重新获取token，防止过期
+    const uploadToken = putPolicy.uploadToken(mac);
     // 获取文件流
     const stream = await this.ctx.getFileStream();
     // 定义文件名
@@ -43,6 +45,7 @@ class FileController extends Controller {
       const formUploader = new qiniu.form_up.FormUploader(config);
       const putExtra = new qiniu.form_up.PutExtra();
       const urlAddress = `${prefix}/${filename}`;
+      console.log(uploadToken, "uploadToken");
       const imgSrc = await new Promise((resolve, reject) => {
         formUploader.putFile(
           uploadToken,
