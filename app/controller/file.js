@@ -20,7 +20,7 @@ const options = {
 const putPolicy = new qiniu.rs.PutPolicy(options);
 const uploadToken = putPolicy.uploadToken(mac);
 let config = new qiniu.conf.Config();
-config.zone = qiniu.zone.Zone_z2;
+config.zone = qiniu.zone.Zone_z0;
 const Controller = require("egg").Controller;
 
 class FileController extends Controller {
@@ -50,12 +50,12 @@ class FileController extends Controller {
           target,
           putExtra,
           (respErr, respBody, respInfo) => {
-            if (respErr) {
-              reject("");
+            if (respBody.error) {
+              reject(respBody.error);
             }
             if (respInfo.statusCode == 200) {
               //img.woaidq.xyz/1609685727377.png
-              http: resolve(`http://${imageUrl}/${respBody.key}`);
+              resolve(`http://${imageUrl}/${respBody.key}`);
             } else {
               reject("");
             }
@@ -64,6 +64,7 @@ class FileController extends Controller {
           }
         );
       });
+      console.log(imgSrc, "imgSrc");
       if (imgSrc !== "") {
         // 自定义方法
         this.ctx.success("上传成功", { url: imgSrc });
