@@ -1,15 +1,19 @@
 "use strict";
 
 const Controller = require("egg").Controller;
+const Sequelize = require("sequelize");
 const { pickBy, identity } = require("lodash");
-
+const Op = Sequelize.Op;
 class Question extends Controller {
   async index() {
     const ctx = this.ctx;
     const {
-      query: { page = 1, count = 10, categoryId },
+      query: { page = 1, count = 10, categoryId, title },
     } = ctx;
-    const condition = { categoryId };
+    const condition = {
+      categoryId,
+      title: title && { [Op.like]: `%${title}%` },
+    };
     const result = await ctx.model.Question.findAndCountAll({
       where: pickBy(condition, identity),
       limit: count,

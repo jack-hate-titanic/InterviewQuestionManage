@@ -16,6 +16,8 @@ https://www.yuque.com/sunluyong/node/orm
 详细
 https://itbilu.com/nodejs/npm/V1PExztfb.html
 
+### 关于模糊查询：https://segmentfault.com/a/1190000018957421?utm_source=tag-newest
+
 # 项目启动操作
 
 npm run dev
