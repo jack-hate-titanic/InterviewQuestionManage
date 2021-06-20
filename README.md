@@ -28,6 +28,7 @@ pm2 start server.js
 - 添加 jwt
 - 添加分页
 - 把所有的 js 改成 question，包括数据库名称
+- 增加模糊查询
 
 # 问题
 
